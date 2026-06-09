@@ -12,7 +12,11 @@ os.makedirs(DATA_DIR, exist_ok=True)
 # 从环境变量读（Render Dashboard 配置）
 DB_URL = os.getenv("DATABASE_URL", "")
 DB_TOKEN = os.getenv("DATABASE_AUTH_TOKEN", "")
-IS_TURSO = DB_URL.startswith(("libsql://", "sqlite+libsql://", "https://", "http://"))
+# IS_TURSO: 有 token 必走 Turso，或者 URL 含 libsql:// 前缀
+IS_TURSO = bool(DB_TOKEN) or DB_URL.startswith(("libsql://", "sqlite+libsql://", "https://", "http://"))
+if IS_TURSO and not DB_URL:
+    # 兜底：有 token 但没 URL，用默认 Turso 地址
+    DB_URL = "libsql://game-cemetery-sky-yangf.aws-ap-northeast-1.turso.io"
 
 
 class TursoClient:

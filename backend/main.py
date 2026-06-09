@@ -1,13 +1,21 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from database import engine, Base
+from database import engine, Base, IS_TURSO, DB_URL, DB_TOKEN
 from routers import games, candles, played, comments
 import os
 
 # 建表
-Base.metadata.create_all(bind=engine)
+if engine:
+    Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="数字墓园 API", version="1.0")
+
+# 启动日志：方便定位 Turso 连接状态
+@app.on_event("startup")
+async def startup_log():
+    print(f"[STARTUP] IS_TURSO={IS_TURSO}", flush=True)
+    print(f"[STARTUP] DB_URL 前40字符={DB_URL[:40] if DB_URL else 'EMPTY'}", flush=True)
+    print(f"[STARTUP] DB_TOKEN={'SET' if DB_TOKEN else 'MISSING'}", flush=True)
 
 # CORS: 默认本地开发，部署时改 ALLOWED_ORIGINS 环境变量
 ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173").split(",")
