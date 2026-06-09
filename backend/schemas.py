@@ -41,14 +41,14 @@ class GameOut(BaseModel):
     reason: str
     reason_emoji: str
     lifespan: str
-    epitaph: Optional[str]
-    comment: Optional[str]
-    candles: int
-    played: int
-    is_user_submitted: bool
-    submitted_by: Optional[str]
-    updated_by: Optional[str]
-    updated_at: Optional[datetime]
+    epitaph: Optional[str] = None
+    comment: Optional[str] = None
+    candles: int = 0
+    played: int = 0
+    is_user_submitted: bool = False
+    submitted_by: Optional[str] = None
+    updated_by: Optional[str] = None
+    updated_at: Optional[datetime] = None
 
     class Config:
         from_attributes = True

@@ -37,3 +37,8 @@ app.include_router(comments.router)
 @app.get("/")
 def root():
     return {"name": "数字墓园 API", "version": "1.0", "status": "ok"}
+
+
+@app.options("/{rest_of_path:path}")
+async def preflight_handler():
+    return {"ok": True}
