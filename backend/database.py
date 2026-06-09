@@ -1,27 +1,125 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 import os
+import json
+import urllib.request
+import ssl
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 os.makedirs(DATA_DIR, exist_ok=True)
 
-# 永远用本地 SQLite（最稳）
-DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{os.path.join(DATA_DIR, 'cemetery.db')}")
+# 从环境变量读（Render Dashboard 配置）
+DB_URL = os.getenv("DATABASE_URL", "")
+DB_TOKEN = os.getenv("DATABASE_AUTH_TOKEN", "")
+IS_TURSO = DB_URL.startswith(("libsql://", "sqlite+libsql://", "https://", "http://"))
 
-# 兼容 libsql URL（自动转 sqlite）
-if DATABASE_URL.startswith("libsql://") or DATABASE_URL.startswith("sqlite+libsql://"):
-    DATABASE_URL = f"sqlite:///{DATA_DIR}/cemetery.db"
 
-connect_args = {"check_same_thread": False}
-engine = create_engine(DATABASE_URL, connect_args=connect_args)
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+class TursoClient:
+    """Turso HTTP REST 客户端（纯 stdlib）"""
+
+    def __init__(self):
+        url = DB_URL
+        for prefix in ("sqlite+libsql://", "libsql://", "https://", "http://"):
+            if url.startswith(prefix):
+                url = url[len(prefix):]
+        self.host = url.rstrip("/")
+        self.token = DB_TOKEN
+        self._ctx = ssl.create_default_context()
+        self._ctx.check_hostname = False
+        self._ctx.verify_mode = ssl.CERT_NONE
+
+    def execute(self, sql: str) -> dict:
+        body = json.dumps({
+            "requests": [{"type": "execute", "stmt": {"sql": sql}}],
+        }, ensure_ascii=False).encode("utf-8")
+        req = urllib.request.Request(
+            f"https://{self.host}/v2/pipeline",
+            data=body,
+            headers={
+                "Authorization": f"Bearer {self.token}",
+                "Content-Type": "application/json",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=30, context=self._ctx) as resp:
+            return json.loads(resp.read())
+
+    def fetch_all(self, sql: str) -> list[dict]:
+        try:
+            r = self.execute(sql)
+        except Exception as e:
+            print(f"[Turso] fetch_all err: {e}")
+            return []
+        result = r.get("results", [{}])[0]
+        if result.get("type") != "ok":
+            return []
+        cols = [c["name"] for c in result["response"]["result"]["cols"]]
+        rows = result["response"]["result"]["rows"]
+        return [dict(zip(cols, [_extract(v) for v in row])) for row in rows]
+
+    def fetch_one(self, sql: str) -> dict | None:
+        rows = self.fetch_all(sql)
+        return rows[0] if rows else None
+
+    def ensure_tables(self):
+        """首次启动建表（部署环境）"""
+        for ddl in [
+            """CREATE TABLE IF NOT EXISTS games (
+                id TEXT PRIMARY KEY, icon TEXT, name TEXT NOT NULL,
+                publisher TEXT, type TEXT, release TEXT, death TEXT,
+                reason TEXT, reason_emoji TEXT, lifespan TEXT,
+                epitaph TEXT, comment TEXT, candles INTEGER DEFAULT 0,
+                played INTEGER DEFAULT 0, is_user_submitted INTEGER DEFAULT 0,
+                submitted_by TEXT, submitted_at TEXT, updated_by TEXT, updated_at TEXT
+            )""",
+            """CREATE TABLE IF NOT EXISTS candles (
+                id INTEGER PRIMARY KEY AUTOINCREMENT, game_id TEXT NOT NULL,
+                user_id TEXT NOT NULL, created_at TEXT DEFAULT (datetime('now'))
+            )""",
+            """CREATE TABLE IF NOT EXISTS played (
+                id INTEGER PRIMARY KEY AUTOINCREMENT, game_id TEXT NOT NULL,
+                user_id TEXT NOT NULL, created_at TEXT DEFAULT (datetime('now'))
+            )""",
+            """CREATE TABLE IF NOT EXISTS comments (
+                id TEXT PRIMARY KEY, game_id TEXT NOT NULL,
+                author TEXT, content TEXT NOT NULL,
+                image TEXT, created_at TEXT DEFAULT (datetime('now'))
+            )""",
+        ]:
+            try:
+                self.execute(ddl)
+            except Exception as e:
+                print(f"[Turso] DDL failed: {e}")
+
+
+def _extract(v):
+    if isinstance(v, dict) and "value" in v:
+        return v["value"]
+    return v
+
+
+# ============================================================
+# 本地 SQLite
+# ============================================================
+if not IS_TURSO:
+    _local_url = DB_URL or f"sqlite:///{os.path.join(DATA_DIR, 'cemetery.db')}"
+    engine = create_engine(_local_url, connect_args={"check_same_thread": False})
+    SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+else:
+    engine = None
+    SessionLocal = None
+
 Base = declarative_base()
 
 
 def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+    if IS_TURSO:
+        client = TursoClient()
+        client.ensure_tables()
+        yield client
+    else:
+        db = SessionLocal()
+        try:
+            yield db
+        finally:
+            db.close()

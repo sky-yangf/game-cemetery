@@ -1,13 +1,12 @@
 from fastapi import APIRouter, Depends, HTTPException, Header
 from sqlalchemy.orm import Session
-from database import get_db
+from database import get_db, IS_TURSO
 from models import Game, Comment as CommentModel
 from schemas import CommentCreate, CommentOut
 from routers import ADMIN_USERS
 import uuid
 
 router = APIRouter(prefix="/api/games/{game_id}/comments", tags=["comments"])
-
 ADMIN = ADMIN_USERS
 
 
@@ -16,10 +15,34 @@ def require_admin(user_id: str):
         raise HTTPException(403, "需要管理员权限")
 
 
+def _row_to_comment(row: dict) -> dict:
+    """Turso row → CommentOut 格式（key 重命名）"""
+    return {
+        "id": row.get("id"),
+        "game_id": row.get("game_id"),
+        "author": row.get("author"),
+        "content": row.get("content"),
+        "image": row.get("image"),
+        "created_at": row.get("created_at"),
+    }
+
+
 # ── GET /api/games/{id}/comments ──────────────────────
 
 @router.get("", response_model=list[CommentOut])
-def list_comments(game_id: str, db: Session = Depends(get_db)):
+def list_comments(game_id: str, db = Depends(get_db)):
+    escaped_game = game_id.replace(chr(39), chr(39) + chr(39))
+
+    if IS_TURSO:
+        game = db.fetch_one(f"SELECT id FROM games WHERE id = '{escaped_game}'")
+        if not game:
+            raise HTTPException(404, "墓碑不存在")
+        rows = db.fetch_all(
+            f"SELECT * FROM comments WHERE game_id = '{escaped_game}' "
+            f"ORDER BY created_at DESC"
+        )
+        return [_row_to_comment(r) for r in rows]
+
     game = db.query(Game).filter(Game.id == game_id).first()
     if not game:
         raise HTTPException(404, "墓碑不存在")
@@ -38,18 +61,32 @@ def create_comment(
     game_id: str,
     body: CommentCreate,
     x_user_id: str = Header(...),
-    db: Session = Depends(get_db),
+    db = Depends(get_db),
 ):
+    escaped_game = game_id.replace(chr(39), chr(39) + chr(39))
+    new_id = str(uuid.uuid4())
+    author = body.author.replace(chr(39), chr(39) + chr(39))
+    content = body.content.replace(chr(39), chr(39) + chr(39))
+    image = (body.image or "").replace(chr(39), chr(39) + chr(39)) if body.image else None
+    img_sql = f"'{image}'" if image else "NULL"
+
+    if IS_TURSO:
+        game = db.fetch_one(f"SELECT id FROM games WHERE id = '{escaped_game}'")
+        if not game:
+            raise HTTPException(404, "墓碑不存在")
+        db.execute(
+            f"INSERT INTO comments (id, game_id, author, content, image) "
+            f"VALUES ('{new_id}', '{escaped_game}', '{author}', '{content}', {img_sql})"
+        )
+        row = db.fetch_one(f"SELECT * FROM comments WHERE id = '{new_id}'")
+        return _row_to_comment(row)
+
     game = db.query(Game).filter(Game.id == game_id).first()
     if not game:
         raise HTTPException(404, "墓碑不存在")
-
     comment = CommentModel(
-        id=str(uuid.uuid4()),
-        game_id=game_id,
-        author=body.author,
-        content=body.content,
-        image=body.image,
+        id=new_id, game_id=game_id, author=body.author,
+        content=body.content, image=body.image,
     )
     db.add(comment)
     db.commit()
@@ -64,9 +101,22 @@ def delete_comment(
     game_id: str,
     comment_id: str,
     x_user_id: str = Header(...),
-    db: Session = Depends(get_db),
+    db = Depends(get_db),
 ):
     require_admin(x_user_id)
+    escaped_game = game_id.replace(chr(39), chr(39) + chr(39))
+    escaped_comment = comment_id.replace(chr(39), chr(39) + chr(39))
+
+    if IS_TURSO:
+        existing = db.fetch_one(
+            f"SELECT * FROM comments WHERE id = '{escaped_comment}' "
+            f"AND game_id = '{escaped_game}'"
+        )
+        if not existing:
+            raise HTTPException(404, "留言不存在")
+        db.execute(f"DELETE FROM comments WHERE id = '{escaped_comment}'")
+        return {"ok": True}
+
     comment = db.query(CommentModel).filter(
         CommentModel.id == comment_id,
         CommentModel.game_id == game_id,
