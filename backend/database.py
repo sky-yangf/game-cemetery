@@ -97,8 +97,11 @@ class TursoClient:
 
 
 def _extract(v):
-    if isinstance(v, dict) and "value" in v:
-        return v["value"]
+    if isinstance(v, dict):
+        if "value" in v:
+            return v["value"]
+        if v.get("type") == "null":
+            return None
     return v
 
 
