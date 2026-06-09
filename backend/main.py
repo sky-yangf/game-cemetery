@@ -3,6 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from database import engine, Base, IS_TURSO, DB_URL, DB_TOKEN
 from routers import games, candles, played, comments
 import os
+import time as _t
+print(f"[BOOT] {os.getenv('RENDER_SERVICE_NAME','local')} pid={os.getpid()} t={int(_t.time())}", flush=True)
 
 # 建表
 if engine:
