@@ -46,7 +46,14 @@ class TursoClient:
             },
         )
         with urllib.request.urlopen(req, timeout=30, context=self._ctx) as resp:
-            return json.loads(resp.read())
+            r = json.loads(resp.read())
+        # 检查执行结果
+        for i, result in enumerate(r.get("results", [])):
+            if result.get("type") != "ok":
+                print(f"[Turso] SQL err #{i}: {result.get('error', result)}", flush=True)
+            elif result.get("response", {}).get("result", {}).get("rows_affected") is not None:
+                print(f"[Turso] rows_affected={result['response']['result']['rows_affected']}", flush=True)
+        return r
 
     def fetch_all(self, sql: str) -> list[dict]:
         try:
@@ -93,7 +100,7 @@ class TursoClient:
             try:
                 self.execute(ddl)
             except Exception as e:
-                print(f"[Turso] DDL failed: {e}")
+                print(f"[Turso] DDL failed: {e}", flush=True)
 
 
 def _extract(v):
