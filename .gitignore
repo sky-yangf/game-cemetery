@@ -7,9 +7,7 @@ __pycache__/
 venv/
 env/
 .env
-*.db
-*.sqlite
-data/cemetery.db
+# data/cemetery.db  ← 已提交，不在 gitignore
 
 # Node
 node_modules/
