@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 from typing import Optional
 from datetime import datetime
 
@@ -80,7 +80,14 @@ class PlayedOut(BaseModel):
 class CommentCreate(BaseModel):
     author: str = Field(min_length=1, max_length=20)
     content: str = Field(min_length=1, max_length=200)
-    image: Optional[str] = None
+    image: Optional[str] = Field(default=None, max_length=200000)
+
+    @field_validator("image", mode="before")
+    @classmethod
+    def empty_string_to_none(cls, v):
+        if v == "":
+            return None
+        return v
 
 
 class CommentOut(BaseModel):
