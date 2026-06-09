@@ -91,6 +91,7 @@ class TursoClient:
                 id INTEGER PRIMARY KEY AUTOINCREMENT, game_id TEXT NOT NULL,
                 user_id TEXT NOT NULL, created_at TEXT DEFAULT (datetime('now'))
             )""",
+            """DROP TABLE IF EXISTS comments""",
             """CREATE TABLE IF NOT EXISTS comments (
                 id TEXT PRIMARY KEY, game_id TEXT NOT NULL,
                 author TEXT, content TEXT NOT NULL,
