@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from database import engine, Base, IS_TURSO, DB_URL, DB_TOKEN
+from database import engine, Base, IS_TURSO, DB_URL, DB_TOKEN, _extract
 from routers import games, candles, played, comments
 import os
 import time as _t
@@ -38,7 +38,18 @@ app.include_router(comments.router)
 
 @app.get("/")
 def root():
-    return {"name": "数字墓园 API", "version": "1.0", "status": "ok"}
+    return {"name": "数字墓园 API", "version": "1.0", "status": "ok", "use_turso": IS_TURSO}
+
+
+@app.get("/debug/tables")
+def debug_tables():
+    from database import get_db
+    db = next(get_db())
+    if IS_TURSO:
+        rows = db.fetch_all("SELECT name, sql FROM sqlite_master WHERE type='table'")
+        return [{"name": _extract(r.get("name")), "sql": _extract(r.get("sql"))} for r in rows]
+    from models import Base
+    return [t.name for t in Base.metadata.sorted_tables]
 
 
 @app.options("/{rest_of_path:path}")
