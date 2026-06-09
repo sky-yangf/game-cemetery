@@ -52,8 +52,9 @@ export function useComments(gameId: string | null) {
         createdAt: new Date(c.created_at).getTime(),
       }))
       setComments(normalized)
-    } catch {
-      setComments([])
+    } catch (e) {
+      console.warn("[useComments] 加载失败，保留旧数据:", e)
+      // 不清空！保留旧数据防止"假丢数据"
     } finally {
       setLoading(false)
     }
