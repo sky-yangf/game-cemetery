@@ -1,0 +1,3966 @@
+{
+  "source": "萌娘百科·游戏关服/停服手游列表",
+  "total": 495,
+  "games": [
+    {
+      "name": "归龙潮",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/8/80/%E5%BD%92%E9%BE%99%E6%BD%AE%E6%B8%B8%E6%88%8FLogo.jpg!/fw/128?v=20250312192356",
+      "publisher": ".12.10光辇游戏",
+      "release": "2024-09",
+      "death": "2025-12"
+    },
+    {
+      "name": "Vtory Belles",
+      "region": "中译名【胜利佳丽/胜利少女】",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/3/37/Victory_Belles_Icon.png!/fw/128?v=20240712143225",
+      "publisher": ".10.2？Black Chicken Studios",
+      "release": "2023-02",
+      "death": "2025-10"
+    },
+    {
+      "name": "世界弹射物语",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/3/3f/WORLD_FLIPPER.png!/fw/128?v=20211028001706",
+      "publisher": ".8.14雷霆游戏",
+      "release": "2021-10",
+      "death": "2025-08"
+    },
+    {
+      "name": "航海王：梦想指针",
+      "region": "",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/9/9a/%E8%88%AA%E6%B5%B7%E7%8E%8B%EF%BC%9A%E6%A2%A6%E6%83%B3%E6%8C%87%E9%92%88.webp!/fw/512/watermark/url/L21vZWdpcmwvd2F0ZXJtYXJrLnBuZw==/align/southeast/margin/10x10/opacity/50?v=20260505035157",
+      "publisher": "千寻社",
+      "release": "",
+      "death": "2025-06"
+    },
+    {
+      "name": "潮灵王国：起源",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/9/95/%E6%BD%AE%E7%81%B5%E7%8E%8B%E5%9B%BD%EF%BC%9A%E8%B5%B7%E6%BA%90.jpg",
+      "publisher": ".12.12盛天游戏",
+      "release": "2024-01",
+      "death": "2024-12"
+    },
+    {
+      "name": "斯露德",
+      "region": "国服",
+      "img_url": "",
+      "publisher": ".10.9Bilibili",
+      "release": "2023-08",
+      "death": "2024-10"
+    },
+    {
+      "name": "食物语",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/4/42/%E9%A3%9F%E7%89%A9%E8%AF%AD_logo.png!/fw/128?v=20191107123529",
+      "publisher": ".6.18天梯互娱",
+      "release": "2019-09",
+      "death": "2024-06"
+    },
+    {
+      "name": "BLUE REFLECTION SUN/灿",
+      "region": "日服",
+      "img_url": "",
+      "publisher": ".5.30DMM GAMES",
+      "release": "2023-02",
+      "death": "2024-05"
+    },
+    {
+      "name": "宿命回响",
+      "region": "国际服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/7/70/Takt.jpg!/fw/128?v=20211126042518",
+      "publisher": ".4.9万代南梦宫娱乐",
+      "release": "2023-06",
+      "death": "2024-04"
+    },
+    {
+      "name": "重装战姬",
+      "region": "国服",
+      "img_url": "",
+      "publisher": ".2.26Bilibili",
+      "release": "2019-07",
+      "death": "2024-02"
+    },
+    {
+      "name": "非匿名指令",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/0/0e/%E9%9D%9E%E5%8C%BF%E5%90%8D%E6%8C%87%E4%BB%A4%E5%9B%BE%E6%A0%87.jpg!/fw/128?v=20221218072636",
+      "publisher": ".2.28bilibili",
+      "release": "2022-11",
+      "death": "2024-02"
+    },
+    {
+      "name": "心罪爱丽丝",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/1/1b/SINoALICE_Icon.jpg!/fw/128?v=20170616104632",
+      "publisher": ".1.15Pokelabo, Inc.",
+      "release": "2017-06",
+      "death": "2024-01"
+    },
+    {
+      "name": "解神者",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/1/11/%E5%88%9D%E7%8E%96icon.png!/fw/128?v=20200528032737",
+      "publisher": ".1.22X2-siva工作室",
+      "release": "2020-10",
+      "death": "2024-01"
+    },
+    {
+      "name": "伊甸园的骄傲",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/2/24/%E4%BC%8A%E7%94%B8%E5%9B%AD%E7%9A%84%E9%AA%84%E5%82%B2%E5%9B%BE%E6%A0%87.jpeg!/fw/128?v=20230618135307",
+      "publisher": ".12.15游族网络",
+      "release": "2020-07",
+      "death": "2023-12"
+    },
+    {
+      "name": "双生视界",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/4/42/Sssjie.webp!/fw/128?v=20220611104058",
+      "publisher": ".12.21西山居",
+      "release": "2019-11",
+      "death": "2023-12"
+    },
+    {
+      "name": "诺弗兰物语",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/1/1a/%E8%AF%BA%E5%BC%97%E5%85%B0%E7%89%A9%E8%AF%AD%E5%9B%BE%E6%A0%87.png!/fw/128?v=20230618024844",
+      "publisher": ".8.31合鸟工作室",
+      "release": "2021-08",
+      "death": "2023-08"
+    },
+    {
+      "name": "复苏的魔女",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/9/91/%E5%A4%8D%E8%8B%8F%E7%9A%84%E9%AD%94%E5%A5%B3%E5%9B%BE%E6%A0%87.png!/fw/128?v=20230617141222",
+      "publisher": ".7.31雷霆游戏",
+      "release": "2021-07",
+      "death": "2023-07"
+    },
+    {
+      "name": "Apex英雄手游",
+      "region": "全球服",
+      "img_url": "",
+      "publisher": ".5.1Respawn",
+      "release": "2022-05",
+      "death": "2023-05"
+    },
+    {
+      "name": "爆裂魔女",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/3/3c/%E7%88%86%E8%A3%82%E9%AD%94%E5%A5%B3%E6%B8%B8%E6%88%8F%E5%9B%BE%E6%A0%87.jpg!/fw/128?v=20230618024605",
+      "publisher": ".5.30上海辉幻网络科技有限公司",
+      "release": "2021-10",
+      "death": "2023-05"
+    },
+    {
+      "name": "勇者斗恶龙 达伊的大冒险 -魂之绊-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": ".4.27DeNA",
+      "release": "2021-09",
+      "death": "2023-04"
+    },
+    {
+      "name": "CODE GEASS Genesic Re;Code",
+      "region": "日服",
+      "img_url": "",
+      "publisher": ".4.27JORO",
+      "release": "2021-10",
+      "death": "2023-04"
+    },
+    {
+      "name": "LoveLive!学园偶像祭",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/6/6d/LLSIF9.1.webp!/fw/128?v=20210720014913",
+      "publisher": ".3.31KLab",
+      "release": "2013-04",
+      "death": "2023-03"
+    },
+    {
+      "name": "HoneyWorks Premium Live",
+      "region": "",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/7/7e/Honeyworks_Premium_Live.webp!/fw/128?v=20201214103230",
+      "publisher": ".3.31Akatsuki",
+      "release": "2020-11",
+      "death": "2023-03"
+    },
+    {
+      "name": "绽放的阿尔斯诺特利亚",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/9/95/%E6%B8%B8%E6%88%8F%E5%85%B3%E6%9C%8D-%E5%81%9C%E6%9C%8D%E6%89%8B%E6%B8%B8%E5%88%97%E8%A1%A8_1.webp!/fw/128?v=20260426034516",
+      "publisher": ".3.31NextNinja",
+      "release": "2021-03",
+      "death": "2023-03"
+    },
+    {
+      "name": "宝可梦集换式卡牌游戏OL",
+      "region": "全球服",
+      "img_url": "",
+      "publisher": ".3.1Dire Wolf Digital",
+      "release": "2014-09",
+      "death": "2023-03"
+    },
+    {
+      "name": "闪耀幻想曲",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/c/ca/%E6%B8%B8%E6%88%8F%E5%85%B3%E6%9C%8D-%E5%81%9C%E6%9C%8D%E6%89%8B%E6%B8%B8%E5%88%97%E8%A1%A8_2.webp!/fw/128?v=20260426034520",
+      "publisher": ".2.28Drecom",
+      "release": "2017-12",
+      "death": "2023-02"
+    },
+    {
+      "name": "胡桃日记",
+      "region": "简中服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/5/5d/%E8%83%A1%E6%A1%83%E6%97%A5%E8%AE%B0.jpg!/fw/128?v=20230618032259",
+      "publisher": ".2.15腾讯",
+      "release": "2021-04",
+      "death": "2023-02"
+    },
+    {
+      "name": "全球行动",
+      "region": "简中服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/4/43/%E5%85%A8%E7%90%83%E8%A1%8C%E5%8A%A8.jpg!/fw/128?v=20230618033317",
+      "publisher": ".2.15腾讯",
+      "release": "2019-04",
+      "death": "2023-02"
+    },
+    {
+      "name": "掌门太忙",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/6/61/%E6%8E%8C%E9%97%A8%E5%A4%AA%E5%BF%99%E5%9B%BE%E6%A0%87.jpg!/fw/128?v=20230618034902",
+      "publisher": ".2.10华清飞扬注：原计划2023年5月8日停止运营，后于2023年2月10日宣布改为停止内容更新",
+      "release": "2020-08",
+      "death": "2023-02"
+    },
+    {
+      "name": "玄中记",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/b/b4/%E7%8E%84%E4%B8%AD%E8%AE%B0%E5%9B%BE%E6%A0%87.jpg!/fw/128?v=20230618034902",
+      "publisher": ".2.10在渊工作室",
+      "release": "2022-01",
+      "death": "2023-02"
+    },
+    {
+      "name": "一零零一",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/5/5b/%E4%B8%80%E9%9B%B6%E9%9B%B6%E4%B8%80%E5%9B%BE%E6%A0%87.png!/fw/128?v=20230618034902",
+      "publisher": ".2.8腾讯",
+      "release": "2020-01",
+      "death": "2023-02"
+    },
+    {
+      "name": "炉石传说",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/4/41/%E7%82%89%E7%9F%B3%E4%BC%A0%E8%AF%B4%E5%9B%BE%E6%A0%87.jpg!/fw/128?v=20230618034904",
+      "publisher": ".1.23暴雪",
+      "release": "2014-07",
+      "death": "2023-01"
+    },
+    {
+      "name": "合金弹头进攻",
+      "region": "全球服",
+      "img_url": "",
+      "publisher": ".1.12SNK",
+      "release": "2016-02",
+      "death": "2023-01"
+    },
+    {
+      "name": "最终幻想7 第一战士",
+      "region": "日服",
+      "img_url": "",
+      "publisher": ".1.11SE",
+      "release": "2021-11",
+      "death": "2023-01"
+    },
+    {
+      "name": "墨魂",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/4/4f/%E5%A2%A8%E9%AD%82app%E5%9B%BE%E6%A0%87.webp!/fw/128?v=20221222100712",
+      "publisher": ".12.20墨魂工作室注：停止更新游戏内容和客服渠道，服务器继续开放至正式停服流程。",
+      "release": "2020-07",
+      "death": "2022-12"
+    },
+    {
+      "name": "千年战争Aigis",
+      "region": "繁中服",
+      "img_url": "",
+      "publisher": ".12.23DMM",
+      "release": "2021-08",
+      "death": "2022-12"
+    },
+    {
+      "name": "黑色幸存者",
+      "region": "全球服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/a/ad/%E9%BB%91%E8%89%B2%E5%B9%B8%E5%AD%98%E8%80%85%E9%A2%84%E8%A7%88%E5%9B%BE.png!/fw/128?v=20200509161534",
+      "publisher": ".?～ARCHBEARS",
+      "release": "2015-10",
+      "death": "2022-12"
+    },
+    {
+      "name": "失落的龙约",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/7/7f/Dragalia-100x100.jpg",
+      "publisher": ".11.30Nintendo",
+      "release": "2018-09",
+      "death": "2022-11"
+    },
+    {
+      "name": "苍之骑士团R",
+      "region": "日服",
+      "img_url": "",
+      "publisher": ".11.30龙图游戏",
+      "release": "2021-02",
+      "death": "2022-11"
+    },
+    {
+      "name": "神代梦华谭",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/3/3b/%E7%A5%9E%E4%BB%A3%E6%A2%A6%E5%8D%8E%E8%B0%AD%E5%9B%BE%E6%A0%87.jpg!/fw/128?v=20230618134919",
+      "publisher": ".11.25bilibili",
+      "release": "2017-08",
+      "death": "2022-11"
+    },
+    {
+      "name": "结城友奈是勇者 花结的闪光",
+      "region": "日服",
+      "img_url": "",
+      "publisher": ".10.28Minatosoft",
+      "release": "2017-06",
+      "death": "2022-10"
+    },
+    {
+      "name": "东方弹幕神乐",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/6/6f/%E4%B8%9C%E6%96%B9%E5%BC%B9%E5%B9%95%E7%A5%9E%E4%B9%90%E5%9B%BE%E6%A0%87.png!/fw/128?v=20230619032556",
+      "publisher": ".10.28アンノウンX",
+      "release": "2021-08",
+      "death": "2022-10"
+    },
+    {
+      "name": "魔法纪录 魔法少女小圆外传",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/b/b2/%E9%AD%94%E6%B3%95%E7%BA%AA%E5%BD%95_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86%E5%A4%96%E4%BC%A0%E5%9B%BE%E6%A0%87.jpg!/fw/128?v=20230619032016",
+      "publisher": ".10.12f4samurai",
+      "release": "2020-10",
+      "death": "2022-10"
+    },
+    {
+      "name": "絵師神の絆",
+      "region": "日服",
+      "img_url": "",
+      "publisher": ".9.30Compile heart",
+      "release": "2020-04",
+      "death": "2022-09"
+    },
+    {
+      "name": "マナシスリフレイン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": ".9.9犬酱组",
+      "release": "2021-10",
+      "death": "2022-09"
+    },
+    {
+      "name": "幻想神域",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/5/5f/%E5%B9%BB%E6%83%B3%E7%A5%9E%E5%9F%9F%E5%9B%BE%E6%A0%87.png",
+      "publisher": ".8.13X-Legend",
+      "release": "2014-04",
+      "death": "2022-08"
+    },
+    {
+      "name": "拾光梦行",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/f/fb/%E6%8B%BE%E5%85%89%E6%A2%A6%E8%A1%8C%E5%9B%BE%E6%A0%87.jpg!/fw/128?v=20230619034813",
+      "publisher": ".8.8Time Studio",
+      "release": "2021-01",
+      "death": "2022-08"
+    },
+    {
+      "name": "メモリア 夢の旅人と双子の案内人",
+      "region": "日服",
+      "img_url": "",
+      "publisher": ".7.31Dwarf Works",
+      "release": "2022-03",
+      "death": "2022-07"
+    },
+    {
+      "name": "空匣人型",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/8/81/Kxrxing.png!/fw/128?v=20220613061856",
+      "publisher": ".7.29谷得游戏",
+      "release": "2021-07",
+      "death": "2022-07"
+    },
+    {
+      "name": "アイドルマスター ポップリンクス",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/4/42/POPLINKS_icon.png!/fw/128?v=20210122003940",
+      "publisher": ".7.21NHN PlayArt",
+      "release": "2021-01",
+      "death": "2022-07"
+    },
+    {
+      "name": "Re:从零开始的异世界生活 Lost in Memories",
+      "region": "繁中服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/b/b0/Lost_in_Memories.png!/fw/128?v=20200722142701",
+      "publisher": ".7.22世嘉",
+      "release": "2021-07",
+      "death": "2022-07"
+    },
+    {
+      "name": "Tales of Luminaria",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/b/bc/Tales_of_Luminaria.png!/fw/128?v=20220613062047",
+      "publisher": "未知",
+      "release": "2021-11",
+      "death": "2022-07"
+    },
+    {
+      "name": "魔王と100人のお姫様",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/5/59/Devilprincess.png",
+      "publisher": "未知",
+      "release": "2019-11",
+      "death": "2022-07"
+    },
+    {
+      "name": "魔神英雄传-神龙斗士",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/c/c1/Msyxzhuan.jpg!/fw/128?v=20220613062200",
+      "publisher": ".7.7恺英网络",
+      "release": "2021-07",
+      "death": "2022-07"
+    },
+    {
+      "name": "野生少女：放置",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/5/57/Yaseihouti.png",
+      "publisher": "未知",
+      "release": "2021-08",
+      "death": "2022-07"
+    },
+    {
+      "name": "ミコノート",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/7/7c/Mikonote.png",
+      "publisher": "未知",
+      "release": "2022-02",
+      "death": "2022-07"
+    },
+    {
+      "name": "ブラック・サージナイト",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/d/d9/Blacksurgenight.png",
+      "publisher": ".6.30宅极电",
+      "release": "2021-05",
+      "death": "2022-06"
+    },
+    {
+      "name": "竹書房クエスト〜強襲ポプテピピック〜",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/3/3d/Takesyoboupopute.jpg",
+      "publisher": "未知",
+      "release": "2018-11",
+      "death": "2022-06"
+    },
+    {
+      "name": "SEVEN’s CODE",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/e/e7/Sevenscode.jpg",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2022-06"
+    },
+    {
+      "name": "黄昏のグラドシル",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/a/ad/Gradosil.png",
+      "publisher": "未知",
+      "release": "2020-10",
+      "death": "2022-06"
+    },
+    {
+      "name": "まほろば妖女奇譚",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/3/33/Youjokitan.jpg",
+      "publisher": "未知",
+      "release": "2021-05",
+      "death": "2022-06"
+    },
+    {
+      "name": "VRカレシ",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/8/82/Vrkaresi.jpg",
+      "publisher": "未知",
+      "release": "2021-06",
+      "death": "2022-06"
+    },
+    {
+      "name": "天神学院",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/f/f1/%E5%A4%A9%E7%A5%9E%E5%AD%A6%E9%99%A2%E5%9B%BE%E6%A0%87.png!/fw/128?v=20230619121313",
+      "publisher": ".6.30雷亚游戏",
+      "release": "2021-01",
+      "death": "2022-06"
+    },
+    {
+      "name": "セフィロト時の世界樹",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/f/fb/Sefiroto.png!/fw/128?v=20220610111808",
+      "publisher": "未知",
+      "release": "2013-06",
+      "death": "2022-06"
+    },
+    {
+      "name": "歌マクロス スマホDeカルチャー",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/c/cc/Utamakurosu.png",
+      "publisher": "未知",
+      "release": "2017-08",
+      "death": "2022-06"
+    },
+    {
+      "name": "シドニアの騎士 掌位ノ絆",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/f/fb/Knightsofsidonia.png",
+      "publisher": "未知",
+      "release": "2021-08",
+      "death": "2022-06"
+    },
+    {
+      "name": "堡垒前线",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/8/8a/%E5%A0%A1%E5%9E%92%E5%89%8D%E7%BA%BF%E5%9B%BE%E6%A0%87.webp!/fw/128?v=20230619121551",
+      "publisher": "2019.?.?～网易注：停止更新游戏内容并关闭绝大部分服务器，仅保留一个服务器继续运营",
+      "release": "",
+      "death": "2022-06"
+    },
+    {
+      "name": "MU：奇蹟の覚醒",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/6/68/Mukiseki.jpg",
+      "publisher": "未知",
+      "release": "2019-05",
+      "death": "2022-06"
+    },
+    {
+      "name": "少女咖啡枪(注)实际为《少女咖啡枪》二代作品",
+      "region": "注",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/d/de/Girl_Cafe_Gun.png!/fw/128?v=20220611104247",
+      "publisher": ".6.20西山居",
+      "release": "2020-04",
+      "death": "2022-06"
+    },
+    {
+      "name": "モンスターハンターライダーズ",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/d/d9/Monhan.png",
+      "publisher": "未知",
+      "release": "2020-02",
+      "death": "2022-06"
+    },
+    {
+      "name": "魂器学院-HorcruxCollege",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/7/76/Kongaku.png",
+      "publisher": "未知",
+      "release": "2020-04",
+      "death": "2022-06"
+    },
+    {
+      "name": "拉结尔",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/7/7b/%E6%8B%89%E7%BB%93%E5%B0%94%E5%9B%BE%E6%A0%87.png!/fw/128?v=20230619121816",
+      "publisher": "未知",
+      "release": "2019-06",
+      "death": "2022-06"
+    },
+    {
+      "name": "通感纪元",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/5/52/Tgjyuan.png!/fw/128?v=20220612053720",
+      "publisher": "未知",
+      "release": "2021-01",
+      "death": "2022-05"
+    },
+    {
+      "name": "オルタンシア・サーガ",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/d/d5/Orusagar.png",
+      "publisher": "未知",
+      "release": "2021-02",
+      "death": "2022-05"
+    },
+    {
+      "name": "エクリプスサーガ",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/1/11/%E5%88%9D%E7%8E%96icon.png!/fw/128?v=20200528032737",
+      "publisher": "未知",
+      "release": "2021-07",
+      "death": "2022-05"
+    },
+    {
+      "name": "PotⅡ:RB",
+      "region": "英文服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/0/00/RisingBeat.png!/fw/128?v=20220612053615",
+      "publisher": "（国服名.5.23Bushiroad Inc",
+      "release": "2021-06",
+      "death": "2022-05"
+    },
+    {
+      "name": "蒼空ファンタジー",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/e/e3/Sokufantasy.png",
+      "publisher": "未知",
+      "release": "2021-03",
+      "death": "2022-05"
+    },
+    {
+      "name": "女神にキスを : O.V.E",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/8/85/Megakiss.png",
+      "publisher": "未知",
+      "release": "2020-10",
+      "death": "2022-05"
+    },
+    {
+      "name": "AOD -龍神無双-",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/0/08/Aod.png",
+      "publisher": "未知",
+      "release": "2021-02",
+      "death": "2022-05"
+    },
+    {
+      "name": "アイコイノート",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/e/e0/Aikoi.png",
+      "publisher": "未知",
+      "release": "2020-04",
+      "death": "2022-04"
+    },
+    {
+      "name": "エデンの扉",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/1/18/Edentobira.png",
+      "publisher": "未知",
+      "release": "2020-11",
+      "death": "2022-04"
+    },
+    {
+      "name": "最终幻想:勇气启示录",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/5/51/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B3%EF%BC%9A%E5%8B%87%E6%B0%94%E5%90%AF%E7%A4%BA%E5%BD%95.png!/fw/128?v=20230619122019",
+      "publisher": "2019",
+      "release": "",
+      "death": "2022-04"
+    },
+    {
+      "name": "ステラクロニクル",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/3/35/Stellachronicle.png",
+      "publisher": "未知",
+      "release": "2020-07",
+      "death": "2022-04"
+    },
+    {
+      "name": "FAIRY TAIL 極・魔法乱舞",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/f/f2/Fairytailicon.png",
+      "publisher": "未知",
+      "release": "2015-12",
+      "death": "2022-04"
+    },
+    {
+      "name": "A3!满开剧团",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/0/04/A3LOGO.png!/fw/128?v=20220612051137",
+      "publisher": "未知",
+      "release": "2019-11",
+      "death": "2022-04"
+    },
+    {
+      "name": "ブレイブフロンティア",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/8/80/Burehuro.png",
+      "publisher": "未知",
+      "release": "2013-07",
+      "death": "2022-04"
+    },
+    {
+      "name": "ブレイブフロンティア2",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/3/32/Burehuro2.png",
+      "publisher": "未知",
+      "release": "2018-02",
+      "death": "2022-04"
+    },
+    {
+      "name": "ブレイブフロンティアレゾナ",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/1/1f/Burefuror.png",
+      "publisher": "未知",
+      "release": "2021-09",
+      "death": "2022-04"
+    },
+    {
+      "name": "戦策三国志",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/f/fb/Sensakusangoku.jpg",
+      "publisher": "未知",
+      "release": "2021-12",
+      "death": "2022-04"
+    },
+    {
+      "name": "ボーイフレンド（仮）",
+      "region": "仮",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/4/4c/Boyfrend.png",
+      "publisher": "未知",
+      "release": "2013-12",
+      "death": "2022-04"
+    },
+    {
+      "name": "机甲爱丽丝",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/c/c0/JJALSI.png!/fw/128?v=20220612051901",
+      "publisher": "未知",
+      "release": "2021-04",
+      "death": "2022-04"
+    },
+    {
+      "name": "デジモンリアライズ",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/2/2e/Degirise.png",
+      "publisher": "未知",
+      "release": "2018-06",
+      "death": "2022-04"
+    },
+    {
+      "name": "イケメンライブ　恋の歌をキミに",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/4/4d/Ikemenlive.png",
+      "publisher": "未知",
+      "release": "2018-08",
+      "death": "2022-04"
+    },
+    {
+      "name": "サヴェージ・キング",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/4/46/Thevae.png",
+      "publisher": "未知",
+      "release": "2019-12",
+      "death": "2022-04"
+    },
+    {
+      "name": "Forza Street",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/4/4a/Forzastreet.jpg",
+      "publisher": "未知",
+      "release": "2020-05",
+      "death": "2022-04"
+    },
+    {
+      "name": "凹凸世界",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/3/3a/Outotusekai.png",
+      "publisher": "未知",
+      "release": "2021-07",
+      "death": "2022-04"
+    },
+    {
+      "name": "ONE PIECE ボン！ボン！ジャーニー!!",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/7/70/Bonzyani.png",
+      "publisher": "未知",
+      "release": "2020-03",
+      "death": "2022-04"
+    },
+    {
+      "name": "Lost Kiss ～カレと命の恋愛～",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/3/34/Lostkiss.png",
+      "publisher": "未知",
+      "release": "2020-12",
+      "death": "2022-04"
+    },
+    {
+      "name": "まぞくのじかん",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2013-07",
+      "death": "2022-03"
+    },
+    {
+      "name": "炼金工房Online ～布蕾塞尔的炼金术士～",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/4/48/%E5%B7%A5%E4%BD%9C%E5%AE%A4OL_%E5%9B%BE%E6%A0%87.png!/fw/128?v=20181202115620",
+      "publisher": "未知",
+      "release": "2018-10",
+      "death": "2022-03"
+    },
+    {
+      "name": "戦の海賊ー海賊戦略シミュレーションゲーム",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2015-08",
+      "death": "2022-03"
+    },
+    {
+      "name": "ドラゴンパラダイス ドラゴンと不思議な島",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-07",
+      "death": "2022-03"
+    },
+    {
+      "name": "祭nine.〜キミトボクノ恋祭〜",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-11",
+      "death": "2022-03"
+    },
+    {
+      "name": "Aetolia-冒険のラプソディー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-09",
+      "death": "2022-03"
+    },
+    {
+      "name": "アトリエ オンライン ～ブレセイルの錬金術士～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-10",
+      "death": "2022-03"
+    },
+    {
+      "name": "ルミナスフォレスト",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-11",
+      "death": "2022-03"
+    },
+    {
+      "name": "賢者の孫～究極魔法伝説",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-02",
+      "death": "2022-03"
+    },
+    {
+      "name": "AAA大富豪",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-11",
+      "death": "2022-03"
+    },
+    {
+      "name": "KINGDOM：聖戦のきざし",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-10",
+      "death": "2022-03"
+    },
+    {
+      "name": "英雄*戦姫WW",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-12",
+      "death": "2022-03"
+    },
+    {
+      "name": "サンデータウン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-11",
+      "death": "2022-03"
+    },
+    {
+      "name": "ダウト～嘘つきオトコは誰？～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2015-09",
+      "death": "2022-03"
+    },
+    {
+      "name": "ロンドン迷宮譚",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-01",
+      "death": "2022-03"
+    },
+    {
+      "name": "もののけ夜行 – 百鬼異世界物語",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-12",
+      "death": "2022-03"
+    },
+    {
+      "name": "牧場婚活",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-05",
+      "death": "2022-03"
+    },
+    {
+      "name": "The Skull2: 魔界大乱闘",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-08",
+      "death": "2022-03"
+    },
+    {
+      "name": "光明大陆",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/9/91/%E5%85%89%E6%98%8E%E5%A4%A7%E9%99%86.png!/fw/128?v=20230621025556",
+      "publisher": "未知",
+      "release": "2017-03",
+      "death": "2022-03"
+    },
+    {
+      "name": "黑潮之上",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/9/96/%E9%BB%91%E6%BD%AE%E4%B9%8B%E4%B8%8A%E5%9B%BE%E6%A0%87.jpg!/fw/128?v=20230621030258",
+      "publisher": "未知",
+      "release": "2020-11",
+      "death": "2022-03"
+    },
+    {
+      "name": "苍蓝誓约",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/0/03/%E8%8B%8D%E8%93%9D%E8%AA%93%E7%BA%A6.jpg!/fw/128?v=20230618025715",
+      "publisher": "未知",
+      "release": "2019-07",
+      "death": "2022-03"
+    },
+    {
+      "name": "ステラメイデン ～リフレクスター～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-03",
+      "death": "2022-03"
+    },
+    {
+      "name": "Fate/Grand_Order",
+      "region": "国际服越南境内",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-04",
+      "death": "2022-02"
+    },
+    {
+      "name": "神撃のバハムート",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "中译名2011",
+      "release": "",
+      "death": "2022-02"
+    },
+    {
+      "name": "ウチの姫さまがいちばんカワイイ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2013-08",
+      "death": "2022-02"
+    },
+    {
+      "name": "スカイランダーズ リング ・オブ・ヒーローズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-03",
+      "death": "2022-02"
+    },
+    {
+      "name": "レッドストーン2",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-12",
+      "death": "2022-02"
+    },
+    {
+      "name": "マナビモ！アソベンジャー！",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-05",
+      "death": "2022-02"
+    },
+    {
+      "name": "終末のアーカーシャ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-07",
+      "death": "2022-02"
+    },
+    {
+      "name": "幻书启世录",
+      "region": "国服、台服、日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/a/aa/%E5%B9%BB%E4%B9%A6%E5%90%AF%E4%B8%96%E5%BD%95%E5%9B%BE%E6%A0%87.jpg!/fw/128?v=20210824141518",
+      "publisher": "未知",
+      "release": "2020-12",
+      "death": "2022-02"
+    },
+    {
+      "name": "ファイナルガーディアン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-12",
+      "death": "2022-02"
+    },
+    {
+      "name": "エブリタウン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-02",
+      "death": "2022-02"
+    },
+    {
+      "name": "テイルズ オブ クレストリア",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-07",
+      "death": "2022-02"
+    },
+    {
+      "name": "アルゴナビス from BanG Dream! AAside",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/a/ad/ARGONAVIS_from_BanG_Dream%21_AAside_Logo.png!/fw/128?v=20220611112651",
+      "publisher": "未知",
+      "release": "2021-01",
+      "death": "2022-01"
+    },
+    {
+      "name": "異世界魔王と召喚少女の奴隷魔術X Reverie",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-08",
+      "death": "2022-01"
+    },
+    {
+      "name": "ハリー・ポッター: 魔法同盟",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-06",
+      "death": "2022-01"
+    },
+    {
+      "name": "ブレイブルー オルタナティブ ダークウォー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-02",
+      "death": "2022-01"
+    },
+    {
+      "name": "ゴジラ デストラクション",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-04",
+      "death": "2022-01"
+    },
+    {
+      "name": "MARS RED～彼ハ誰時ノ詩～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-05",
+      "death": "2022-01"
+    },
+    {
+      "name": "THE PEGASUS DREAM TOUR",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-06",
+      "death": "2022-01"
+    },
+    {
+      "name": "乱闘三国志",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-11",
+      "death": "2022-01"
+    },
+    {
+      "name": "イカロスM",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-02",
+      "death": "2022-01"
+    },
+    {
+      "name": "偶像超音速",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/a/ab/%E5%81%B6%E5%83%8F%E8%B6%85%E9%9F%B3%E9%80%9F.jpg!/fw/128?v=20230621000339",
+      "publisher": "2019",
+      "release": "",
+      "death": "2022-01"
+    },
+    {
+      "name": "イケメン夜曲◆ロミオと秘密のジュリエット",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2013-08",
+      "death": "2022-01"
+    },
+    {
+      "name": "ルミア サガ-ちび萌え自由大冒険",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-08",
+      "death": "2022-01"
+    },
+    {
+      "name": "幼女戦記 魔導師斯く戦えり",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-12",
+      "death": "2022-01"
+    },
+    {
+      "name": "绘真·妙笔千山",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/1/1c/%E7%BB%98%E7%9C%9F%C2%B7%E5%A6%99%E7%AC%94%E5%8D%83%E5%B1%B1.webp!/fw/128?v=20230620212949",
+      "publisher": "未知",
+      "release": "2019-01",
+      "death": "2022-01"
+    },
+    {
+      "name": "イドラ ファンタシースターサーガ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-11",
+      "death": "2022-01"
+    },
+    {
+      "name": "エゴエフェクト: フラクタス",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-09",
+      "death": "2022-01"
+    },
+    {
+      "name": "帝国サーガ～三国戦国ごちゃまぜの乱世",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-06",
+      "death": "2022-01"
+    },
+    {
+      "name": "VGAME",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-01",
+      "death": "2022-01"
+    },
+    {
+      "name": "英雄召唤师",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/c/cd/%E8%8B%B1%E9%9B%84%E5%8F%AC%E5%94%A4%E5%B8%88%E5%9B%BE%E6%A0%87.png",
+      "publisher": "2021.？.？～上海墨白计算机科技有限公司",
+      "release": "",
+      "death": "2021-12"
+    },
+    {
+      "name": "フィーバーダンク",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-06",
+      "death": "2021-12"
+    },
+    {
+      "name": "アカツキランド",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-05",
+      "death": "2021-12"
+    },
+    {
+      "name": "コウペンちゃん はなまる日和",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-04",
+      "death": "2021-12"
+    },
+    {
+      "name": "流星アサシン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-04",
+      "death": "2021-12"
+    },
+    {
+      "name": "クローズ×WORST ～打威鳴舞斗～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2013-08",
+      "death": "2021-12"
+    },
+    {
+      "name": "三国ブレイズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-10",
+      "death": "2021-12"
+    },
+    {
+      "name": "ねこパフェ ねこやま店長の小さなお菓子屋さん",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-03",
+      "death": "2021-12"
+    },
+    {
+      "name": "22/7 音楽の時間",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-05",
+      "death": "2021-12"
+    },
+    {
+      "name": "シティダンク",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-03",
+      "death": "2021-12"
+    },
+    {
+      "name": "アンジュ・ヴィエルジュ ～ガールズバトル～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2013-12",
+      "death": "2021-12"
+    },
+    {
+      "name": "ファンタジア・リビルド",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-12",
+      "death": "2021-12"
+    },
+    {
+      "name": "BLESS MOBILE",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-04",
+      "death": "2021-12"
+    },
+    {
+      "name": "戦国アスカZERO",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2015-11",
+      "death": "2021-12"
+    },
+    {
+      "name": "劇的采配！プロ野球リバーサル",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-05",
+      "death": "2021-12"
+    },
+    {
+      "name": "NARUTO X BORUTO 忍者TRIBES",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-03",
+      "death": "2021-12"
+    },
+    {
+      "name": "ウイニングイレブン クラブマネージャー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2015-06",
+      "death": "2021-12"
+    },
+    {
+      "name": "ファンタジーライフ オンライン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-07",
+      "death": "2021-12"
+    },
+    {
+      "name": "ソニック AT 東京2020 オリンピック",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-05",
+      "death": "2021-12"
+    },
+    {
+      "name": "放置サモナー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-01",
+      "death": "2021-12"
+    },
+    {
+      "name": "エルクロニクル",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-06",
+      "death": "2021-12"
+    },
+    {
+      "name": "LINE：ドラえもんパーク",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2021-12"
+    },
+    {
+      "name": "にょろっこ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-06",
+      "death": "2021-12"
+    },
+    {
+      "name": "アリスレコード",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-08",
+      "death": "2021-12"
+    },
+    {
+      "name": "TAPSONIC World Champion",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-02",
+      "death": "2021-12"
+    },
+    {
+      "name": "スタースマッシュ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-11",
+      "death": "2021-12"
+    },
+    {
+      "name": "ポポロクロイス物語",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-05",
+      "death": "2021-11"
+    },
+    {
+      "name": "ガドリンガー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-02",
+      "death": "2021-11"
+    },
+    {
+      "name": "ボーダーレイン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2021-11"
+    },
+    {
+      "name": "夢境ワールド",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-08",
+      "death": "2021-11"
+    },
+    {
+      "name": "SNKオールスター",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-05",
+      "death": "2021-11"
+    },
+    {
+      "name": "エイムズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-11",
+      "death": "2021-11"
+    },
+    {
+      "name": "エルダーアーク",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-06",
+      "death": "2021-11"
+    },
+    {
+      "name": "ソング·オブ·フェイト",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-04",
+      "death": "2021-11"
+    },
+    {
+      "name": "三国志ロワイヤル アリーナ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-04",
+      "death": "2021-11"
+    },
+    {
+      "name": "ラクガキキングダム",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-01",
+      "death": "2021-11"
+    },
+    {
+      "name": "ブレイドストーリー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-03",
+      "death": "2021-11"
+    },
+    {
+      "name": "ドクターマリオワールド",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-07",
+      "death": "2021-11"
+    },
+    {
+      "name": "レイドマスターズオンライン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-07",
+      "death": "2021-11"
+    },
+    {
+      "name": "オルタナティブガールズ2",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-07",
+      "death": "2021-10"
+    },
+    {
+      "name": "HiGH&LOW THE GAME",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2021-10"
+    },
+    {
+      "name": "東京ドールズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-06",
+      "death": "2021-10"
+    },
+    {
+      "name": "刀使ノ巫女 刻みし一閃の燈火",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-03",
+      "death": "2021-10"
+    },
+    {
+      "name": "アニマルフロンティア",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-05",
+      "death": "2021-10"
+    },
+    {
+      "name": "カードキャプターさくら　リペイントレコード",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-10",
+      "death": "2021-10"
+    },
+    {
+      "name": "鬼灯の冷徹～地獄のパズルも君次第",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-06",
+      "death": "2021-10"
+    },
+    {
+      "name": "PAC-MAN GEO",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-10",
+      "death": "2021-10"
+    },
+    {
+      "name": "アンノウンブライド",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-06",
+      "death": "2021-10"
+    },
+    {
+      "name": "オーバーエクリプス",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-05",
+      "death": "2021-10"
+    },
+    {
+      "name": "ブラックホライズン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2021-10"
+    },
+    {
+      "name": "三国志タクティクスデルタ2",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-12",
+      "death": "2021-10"
+    },
+    {
+      "name": "タイムリフレイン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-03",
+      "death": "2021-10"
+    },
+    {
+      "name": "決戦三国",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-07",
+      "death": "2021-10"
+    },
+    {
+      "name": "メタルスラッグインフィニティ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-06",
+      "death": "2021-09"
+    },
+    {
+      "name": "ユートピア・ゲート",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-08",
+      "death": "2021-09"
+    },
+    {
+      "name": "戦国RENKA ズーム！",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-09",
+      "death": "2021-09"
+    },
+    {
+      "name": "ようせいの島",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-05",
+      "death": "2021-09"
+    },
+    {
+      "name": "LINE：ピクサー タワー～おかいものパズル～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-08",
+      "death": "2021-09"
+    },
+    {
+      "name": "防振りうぉーず！",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-01",
+      "death": "2021-09"
+    },
+    {
+      "name": "タップモンスター",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-07",
+      "death": "2021-09"
+    },
+    {
+      "name": "ジョジョのピタパタポップ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-10",
+      "death": "2021-09"
+    },
+    {
+      "name": "欅のキセキ/日向のアユミ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-10",
+      "death": "2021-08"
+    },
+    {
+      "name": "グリムエコーズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-03",
+      "death": "2021-08"
+    },
+    {
+      "name": "三十六計M",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-06",
+      "death": "2021-08"
+    },
+    {
+      "name": "逆命使いの少年",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-10",
+      "death": "2021-08"
+    },
+    {
+      "name": "ラテール – ゆめいろファンタジー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2021-08"
+    },
+    {
+      "name": "ガールカフェガン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-07",
+      "death": "2021-08"
+    },
+    {
+      "name": "ガラパゴスの微振動",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-11",
+      "death": "2021-08"
+    },
+    {
+      "name": "グリザイア クロノスリベリオン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-11",
+      "death": "2021-08"
+    },
+    {
+      "name": "SAO メモリーデフラグ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-08",
+      "death": "2021-08"
+    },
+    {
+      "name": "天華百剣 -斬-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-04",
+      "death": "2021-08"
+    },
+    {
+      "name": "人狼はウソ月",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2021-08"
+    },
+    {
+      "name": "防衛三国志",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-01",
+      "death": "2021-08"
+    },
+    {
+      "name": "地下異聞録",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-03",
+      "death": "2021-08"
+    },
+    {
+      "name": "夢幻のラビリズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-08",
+      "death": "2021-07"
+    },
+    {
+      "name": "神様しばい",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-11",
+      "death": "2021-07"
+    },
+    {
+      "name": "万灵启源",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/7/7e/%E4%B8%87%E7%81%B5%E5%90%AF%E6%BA%90%E5%9B%BE%E6%A0%87.jpg!/fw/128?v=20230617043004",
+      "publisher": "未知",
+      "release": "2020-07",
+      "death": "2021-07"
+    },
+    {
+      "name": "グラフィティスマッシュ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-10",
+      "death": "2021-07"
+    },
+    {
+      "name": "スーパーガンダムロワイヤル",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2015-10",
+      "death": "2021-07"
+    },
+    {
+      "name": "ガールズシンフォニー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-02",
+      "death": "2021-07"
+    },
+    {
+      "name": "天空のクラフトフリート",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-11",
+      "death": "2021-07"
+    },
+    {
+      "name": "神無月",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-04",
+      "death": "2021-07"
+    },
+    {
+      "name": "RenCa:A/N",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-12",
+      "death": "2021-07"
+    },
+    {
+      "name": "アクション対魔忍",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-12",
+      "death": "2021-07"
+    },
+    {
+      "name": "ヘキサゴンダンジョン：アルカナの石",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-10",
+      "death": "2021-07"
+    },
+    {
+      "name": "CHESS HEROZ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2014-12",
+      "death": "2021-07"
+    },
+    {
+      "name": "RANBU 三国志乱舞",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-11",
+      "death": "2021-07"
+    },
+    {
+      "name": "かんぱに☆ガールズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2014-09",
+      "death": "2021-07"
+    },
+    {
+      "name": "装甲娘",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-05",
+      "death": "2021-07"
+    },
+    {
+      "name": "ドラゴンクエストライバルズ エース",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-11",
+      "death": "2021-07"
+    },
+    {
+      "name": "ハロプロタップライブ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2014-11",
+      "death": "2021-06"
+    },
+    {
+      "name": "けものフレンズぱびりおん",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-01",
+      "death": "2021-06"
+    },
+    {
+      "name": "光と音のRPG アークザラッド R",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-08",
+      "death": "2021-06"
+    },
+    {
+      "name": "IZ*ONE remember Z",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-07",
+      "death": "2021-06"
+    },
+    {
+      "name": "AFTERLOST – 消滅都市",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2021-06"
+    },
+    {
+      "name": "アイ★チュウ Étoile Stage",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-04",
+      "death": "2021-06"
+    },
+    {
+      "name": "勇者クライシス",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-04",
+      "death": "2021-06"
+    },
+    {
+      "name": "おねがい、俺を現実に戻さないで！",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-12",
+      "death": "2021-06"
+    },
+    {
+      "name": "サクラ革命 ～華咲く乙女たち～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-12",
+      "death": "2021-06"
+    },
+    {
+      "name": "STAR OCEAN -anamnesis-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-12",
+      "death": "2021-06"
+    },
+    {
+      "name": "エンゲージソウルズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-06",
+      "death": "2021-06"
+    },
+    {
+      "name": "LINEポップショコラ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-10",
+      "death": "2021-06"
+    },
+    {
+      "name": "伝説になっちゃえ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-08",
+      "death": "2021-06"
+    },
+    {
+      "name": "サッカーゲーム",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "BFBチャンピオンズ2.0】",
+      "release": "2016-06",
+      "death": "2021-06"
+    },
+    {
+      "name": "快感フレーズ CLIMAX",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2021-05"
+    },
+    {
+      "name": "SUPERSTAR IZ*ONE",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-04",
+      "death": "2021-05"
+    },
+    {
+      "name": "神界のヴァルキリー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2013-02",
+      "death": "2021-05"
+    },
+    {
+      "name": "メガミラクルフォース",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-01",
+      "death": "2021-05"
+    },
+    {
+      "name": "ウルトラ怪獣バトルブリーダーズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-01",
+      "death": "2021-05"
+    },
+    {
+      "name": "八男って、それはないでしょう！〜もう一人の転生者〜",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-05",
+      "death": "2021-05"
+    },
+    {
+      "name": "DREAM!ing",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-08",
+      "death": "2021-05"
+    },
+    {
+      "name": "ソードアート・オンラインVR LOVELYHONEYDAYS",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-10",
+      "death": "2021-05"
+    },
+    {
+      "name": "トロとパズル～どこでもいっしょ～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2021-05"
+    },
+    {
+      "name": "野生少女",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-09",
+      "death": "2021-05"
+    },
+    {
+      "name": "KINGDOM HEARTS Uχ Dark Road",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2015-09",
+      "death": "2021-04"
+    },
+    {
+      "name": "CUE! – See You Everyday -",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2021-04"
+    },
+    {
+      "name": "ガールフレンド（♪）",
+      "region": "♪",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2015-12",
+      "death": "2021-04"
+    },
+    {
+      "name": "ヴァルキリーアナトミア",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-04",
+      "death": "2021-04"
+    },
+    {
+      "name": "ケンガン ULTIMATE BATTLE",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-06",
+      "death": "2021-04"
+    },
+    {
+      "name": "異境伝説 -麒麟の翼-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-01",
+      "death": "2021-04"
+    },
+    {
+      "name": "ルームシェア☆素顔のカレ Love Days",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2014-06",
+      "death": "2021-04"
+    },
+    {
+      "name": "王子様のプロポーズ Love Tiara",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2014-10",
+      "death": "2021-04"
+    },
+    {
+      "name": "フェイク～芸能人は全員嘘つき？～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-03",
+      "death": "2021-04"
+    },
+    {
+      "name": "ジョジョの奇妙な冒険 スターダストシューターズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2014-03",
+      "death": "2021-04"
+    },
+    {
+      "name": "カルディア・ファンタジー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-07",
+      "death": "2021-04"
+    },
+    {
+      "name": "WAVE!!～波乗りボーイズ～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2021-03",
+      "death": "2021-04"
+    },
+    {
+      "name": "Raziel （ラジエル）",
+      "region": "ラジエル",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-05",
+      "death": "2021-04"
+    },
+    {
+      "name": "大航海時代V",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2014-03",
+      "death": "2021-03"
+    },
+    {
+      "name": "星トモ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-12",
+      "death": "2021-03"
+    },
+    {
+      "name": "ドラゴンネストM",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-12",
+      "death": "2021-03"
+    },
+    {
+      "name": "禍つヴァールハイト",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-04",
+      "death": "2021-03"
+    },
+    {
+      "name": "大航海時代６：ウミロク",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2021-03"
+    },
+    {
+      "name": "THE KING OF FIGHTERS for GIRLS",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-11",
+      "death": "2021-03"
+    },
+    {
+      "name": "超偉人大戦",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-12",
+      "death": "2021-03"
+    },
+    {
+      "name": "戦姫ストライク",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-03",
+      "death": "2021-03"
+    },
+    {
+      "name": "エコーズオブパンドラ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-05",
+      "death": "2021-03"
+    },
+    {
+      "name": "境界之詩タクティクス２-レルムクロニクル-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-07",
+      "death": "2021-03"
+    },
+    {
+      "name": "スーパーロボット大戦X-Ω",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2015-10",
+      "death": "2021-03"
+    },
+    {
+      "name": "名探偵コナン〜からくり屋敷の謎〜",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2015-01",
+      "death": "2021-03"
+    },
+    {
+      "name": "名探偵コナン　仮想世界の名探偵",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-04",
+      "death": "2021-03"
+    },
+    {
+      "name": "仮面ライダー シティウォーズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-10",
+      "death": "2021-03"
+    },
+    {
+      "name": "Kick-Flight（キックフライト）",
+      "region": "キックフライト",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-02",
+      "death": "2021-03"
+    },
+    {
+      "name": "偽想少女と虚構の街",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-02",
+      "death": "2021-03"
+    },
+    {
+      "name": "戦国武将姫-MURAMASA-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2012-03",
+      "death": "2021-03"
+    },
+    {
+      "name": "ビッグバッドモンスターズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-06",
+      "death": "2021-03"
+    },
+    {
+      "name": "ミイラの飼い方",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-03",
+      "death": "2021-02"
+    },
+    {
+      "name": "GALAXYZ(ギャラクシーズ)",
+      "region": "ギャラクシーズ",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-01",
+      "death": "2021-02"
+    },
+    {
+      "name": "LYN:The Lightbringer",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-06",
+      "death": "2021-02"
+    },
+    {
+      "name": "妖怪百姫たん！",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2014-11",
+      "death": "2021-02"
+    },
+    {
+      "name": "ダンジョンマン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-04",
+      "death": "2021-02"
+    },
+    {
+      "name": "オーバーヒット",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-05",
+      "death": "2021-02"
+    },
+    {
+      "name": "メリーガーランド",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-01",
+      "death": "2021-02"
+    },
+    {
+      "name": "パレットパレード",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2021-02"
+    },
+    {
+      "name": "AnotherPrince ～失われた物語～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-09",
+      "death": "2021-02"
+    },
+    {
+      "name": "マジック: マナストライク",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-01",
+      "death": "2021-02"
+    },
+    {
+      "name": "のぶニャがの野望",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2011-03",
+      "death": "2021-02"
+    },
+    {
+      "name": "アビス・ホライズン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-06",
+      "death": "2021-02"
+    },
+    {
+      "name": "甲鉄城のカバネリ -乱-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-12",
+      "death": "2021-02"
+    },
+    {
+      "name": "ゼノンザード(ZENONZARD)",
+      "region": "ZENONZARD",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2021-02"
+    },
+    {
+      "name": "アートコードサマナー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-02",
+      "death": "2021-02"
+    },
+    {
+      "name": "NARUTO-ナルト- 疾風伝　ナルティメットブレイジング",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-07",
+      "death": "2021-02"
+    },
+    {
+      "name": "狂暴の翼",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-06",
+      "death": "2021-02"
+    },
+    {
+      "name": "ザンビ THE GAME",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-05",
+      "death": "2021-01"
+    },
+    {
+      "name": "TERA ORIGIN",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2021-01"
+    },
+    {
+      "name": "THE NEW GATE",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-10",
+      "death": "2021-01"
+    },
+    {
+      "name": "ブレイブファンタジア",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-01",
+      "death": "2021-01"
+    },
+    {
+      "name": "一血卍傑-ONLINE- イッチバンケツ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-08",
+      "death": "2021-01"
+    },
+    {
+      "name": "聖闘士星矢 シャイニングソルジャーズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-02",
+      "death": "2021-01"
+    },
+    {
+      "name": "ソードの誓いを -光と闇の大陸-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-11",
+      "death": "2021-01"
+    },
+    {
+      "name": "邪神ちゃんドロップキック~神保町放置大作戦~",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-04",
+      "death": "2021-01"
+    },
+    {
+      "name": "TWICE -GO! GO! Fightin’-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-12",
+      "death": "2020-12"
+    },
+    {
+      "name": "侍魂オンラインー朧月伝ー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-08",
+      "death": "2020-12"
+    },
+    {
+      "name": "シンデレライレブン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2013-07",
+      "death": "2020-12"
+    },
+    {
+      "name": "ゴブリンスレイヤー THE ENDLESS REVENGE",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-12",
+      "death": "2020-12"
+    },
+    {
+      "name": "スタイリット‐ファッションコーデゲーム",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-04",
+      "death": "2020-12"
+    },
+    {
+      "name": "三国志ヒーローズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2020-12"
+    },
+    {
+      "name": "エースヴァージン：再出撃",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-03",
+      "death": "2020-12"
+    },
+    {
+      "name": "出動！美女ポリス",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2012-08",
+      "death": "2020-12"
+    },
+    {
+      "name": "ガンビット",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-05",
+      "death": "2020-12"
+    },
+    {
+      "name": "戦国BASARA バトルパーティー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-06",
+      "death": "2020-12"
+    },
+    {
+      "name": "三国双舞",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-09",
+      "death": "2020-12"
+    },
+    {
+      "name": "荒野のコトブキ飛行隊",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-02",
+      "death": "2020-12"
+    },
+    {
+      "name": "ブラッククローバー 夢幻の騎士団",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-11",
+      "death": "2020-12"
+    },
+    {
+      "name": "ポプテピピック＋＋",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-04",
+      "death": "2020-12"
+    },
+    {
+      "name": "キズナストライカー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-01",
+      "death": "2020-12"
+    },
+    {
+      "name": "妖怪ウォッチ メダルウォーズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-07",
+      "death": "2020-12"
+    },
+    {
+      "name": "対戦！こおり鬼",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-02",
+      "death": "2020-12"
+    },
+    {
+      "name": "イナズマイレブンSD",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-01",
+      "death": "2020-12"
+    },
+    {
+      "name": "恋忍者戦国絵巻+",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2012-06",
+      "death": "2020-11"
+    },
+    {
+      "name": "恋忍者 愛と欲望の平安乱舞",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2012-12",
+      "death": "2020-11"
+    },
+    {
+      "name": "妖し君との恋奇譚＋",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2014-06",
+      "death": "2020-11"
+    },
+    {
+      "name": "クロノマギア",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-04",
+      "death": "2020-11"
+    },
+    {
+      "name": "グリモア～私立グリモワール魔法学園～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2014-08",
+      "death": "2020-11"
+    },
+    {
+      "name": "モンスターハンター エクスプロア",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2015-09",
+      "death": "2020-11"
+    },
+    {
+      "name": "ムーミンフレンズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-01",
+      "death": "2020-11"
+    },
+    {
+      "name": "スイートルームで悪戯なキス Love Trap",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2013-10",
+      "death": "2020-11"
+    },
+    {
+      "name": "LOVEandJOB オトナの事情",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2014-05",
+      "death": "2020-11"
+    },
+    {
+      "name": "LOVE☆スクランブル",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-04",
+      "death": "2020-11"
+    },
+    {
+      "name": "にゃんグリラ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-02",
+      "death": "2020-11"
+    },
+    {
+      "name": "Moon & Star",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-04",
+      "death": "2020-11"
+    },
+    {
+      "name": "CODE:SEED -星火ノ唄-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-12",
+      "death": "2020-11"
+    },
+    {
+      "name": "GALACTIC FRONTLINE",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-06",
+      "death": "2020-10"
+    },
+    {
+      "name": "オンエア！",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-08",
+      "death": "2020-10"
+    },
+    {
+      "name": "名探偵コナンランナー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-04",
+      "death": "2020-10"
+    },
+    {
+      "name": "社長、バトルの時間です！",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2020-10"
+    },
+    {
+      "name": "KING OF PRISM プリズムラッシュ！LIVE",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-08",
+      "death": "2020-10"
+    },
+    {
+      "name": "暁のブレイカーズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-12",
+      "death": "2020-10"
+    },
+    {
+      "name": "アークオーダー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2020-10"
+    },
+    {
+      "name": "コスプリ!! -美少女との恋愛シュミレーションゲーム",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-12",
+      "death": "2020-10"
+    },
+    {
+      "name": "厨二病 鎮魂歌―Concertino Edgelord―",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-06",
+      "death": "2020-10"
+    },
+    {
+      "name": "バレットブレイク",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2020-10"
+    },
+    {
+      "name": "ステリアデイズ・ウィキッド",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-05",
+      "death": "2020-10"
+    },
+    {
+      "name": "KOFクロニクル",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2020-10"
+    },
+    {
+      "name": "東方キャノンボール",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2020-10"
+    },
+    {
+      "name": "ロストストーンズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-03",
+      "death": "2020-10"
+    },
+    {
+      "name": "Winning Post スタリオン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-09",
+      "death": "2020-10"
+    },
+    {
+      "name": "乖離性ミリオンアーサー",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/a/ab/Guailima.png!/fw/128?v=20141205060120",
+      "publisher": "未知",
+      "release": "2014-11",
+      "death": "2020-09"
+    },
+    {
+      "name": "ミリオンアーサー エクスタシス",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2015-03",
+      "death": "2020-09"
+    },
+    {
+      "name": "ジャンプヒーロー大戦 -オレコレクション2-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-07",
+      "death": "2020-09"
+    },
+    {
+      "name": "みんなでカジノ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-12",
+      "death": "2020-09"
+    },
+    {
+      "name": "ちょこっとモンスター",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-01",
+      "death": "2020-09"
+    },
+    {
+      "name": "かくりよの門 -朧",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2020-09"
+    },
+    {
+      "name": "ノルンズファンタジー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-07",
+      "death": "2020-09"
+    },
+    {
+      "name": "ハーレム伝説2～俺が世界の女を支配する～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-05",
+      "death": "2020-09"
+    },
+    {
+      "name": "クロスクロニクル",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2020-09"
+    },
+    {
+      "name": "GOD EATER RESONANT OPS",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-04",
+      "death": "2020-09"
+    },
+    {
+      "name": "オーブジェネレーション",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-01",
+      "death": "2020-09"
+    },
+    {
+      "name": "時の歌-終焉なきソナタ-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2020-09"
+    },
+    {
+      "name": "星鳴エコーズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-11",
+      "death": "2020-09"
+    },
+    {
+      "name": "リセット〜2回目の初恋〜",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2020-09"
+    },
+    {
+      "name": "パズルダービー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2013-09",
+      "death": "2020-08"
+    },
+    {
+      "name": "スーパー戦隊レジェンドウォーズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-09",
+      "death": "2020-08"
+    },
+    {
+      "name": "BRAVELY DEFAULT FAIRY’S EFFECT",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-03",
+      "death": "2020-08"
+    },
+    {
+      "name": "戦国幻武",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-06",
+      "death": "2020-08"
+    },
+    {
+      "name": "ボイメン☆恋～ようこそボイメンハウスへ～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-09",
+      "death": "2020-08"
+    },
+    {
+      "name": "ちゃんりおフレンズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-07",
+      "death": "2020-08"
+    },
+    {
+      "name": "プロ野球 ファミスタ マスターオーナーズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-02",
+      "death": "2020-08"
+    },
+    {
+      "name": "進撃の巨人 TACTICS",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-04",
+      "death": "2020-08"
+    },
+    {
+      "name": "なむあみだ仏っ！-蓮台 UTENA-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-04",
+      "death": "2020-08"
+    },
+    {
+      "name": "リンクスリングス",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-05",
+      "death": "2020-08"
+    },
+    {
+      "name": "Project NOAH – プロジェクト・ノア -",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2020-08"
+    },
+    {
+      "name": "ラブプラス EVERY",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2020-08"
+    },
+    {
+      "name": "錬神のアストラル",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-11",
+      "death": "2020-08"
+    },
+    {
+      "name": "Witch’s Weapon-魔女兵器-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-04",
+      "death": "2020-08"
+    },
+    {
+      "name": "ログレス物語",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2020-08"
+    },
+    {
+      "name": "ワールドエンドヒーローズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-11",
+      "death": "2020-08"
+    },
+    {
+      "name": "けだまのゴンじろー フィットエンドラン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-04",
+      "death": "2020-08"
+    },
+    {
+      "name": "revisions next stage",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2020-08"
+    },
+    {
+      "name": "妖怪防衛物語",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-06",
+      "death": "2020-08"
+    },
+    {
+      "name": "ダンキラ!!! – Boys, be DANCING! –",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-05",
+      "death": "2020-08"
+    },
+    {
+      "name": "ドラゴンタクティクス∞",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2013-10",
+      "death": "2020-08"
+    },
+    {
+      "name": "ドラゴンクエスト どこでもモンスターパレード",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2015-06",
+      "death": "2020-07"
+    },
+    {
+      "name": "宇宙戦艦ヤマト2202 戦士たちの記憶-Hero’s Record-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-01",
+      "death": "2020-07"
+    },
+    {
+      "name": "東京コンセプション",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-10",
+      "death": "2020-07"
+    },
+    {
+      "name": "明治東亰恋伽～ハヰカラデヱト～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-12",
+      "death": "2020-07"
+    },
+    {
+      "name": "ひねもす式姫",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-10",
+      "death": "2020-07"
+    },
+    {
+      "name": "{{{2}}}",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-03",
+      "death": "2020-07"
+    },
+    {
+      "name": "浪人百剣-斬-～最終の章～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-05",
+      "death": "2020-07"
+    },
+    {
+      "name": "キュイディメ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-08",
+      "death": "2020-07"
+    },
+    {
+      "name": "三国志無限大戦",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-04",
+      "death": "2020-07"
+    },
+    {
+      "name": "ポケモンスクランブルSP",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-05",
+      "death": "2020-07"
+    },
+    {
+      "name": "ゼクス コードオーバーブースト",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2020-07"
+    },
+    {
+      "name": "ステラストーリア-遥かなる七つの約束-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-04",
+      "death": "2020-07"
+    },
+    {
+      "name": "クロスリバース",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-04",
+      "death": "2020-07"
+    },
+    {
+      "name": "僕のヒーローアカデミア SMASH RISING",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-04",
+      "death": "2020-07"
+    },
+    {
+      "name": "政剣マニフェスティア",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-02",
+      "death": "2020-07"
+    },
+    {
+      "name": "FINAL FANTASY DIGITAL CARD GAME",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-07",
+      "death": "2020-07"
+    },
+    {
+      "name": "アイ★チュウ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2015-06",
+      "death": "2020-07"
+    },
+    {
+      "name": "BFB サッカー育成ゲーム",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2012-12",
+      "death": "2020-07"
+    },
+    {
+      "name": "テラバトル",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2014-10",
+      "death": "2020-06"
+    },
+    {
+      "name": "初音ミクぐらふぃコレクション なぞの音楽すい星",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2014-10",
+      "death": "2020-06"
+    },
+    {
+      "name": "オオカミ姫",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2015-01",
+      "death": "2020-06"
+    },
+    {
+      "name": "京刀のナユタ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-06",
+      "death": "2020-06"
+    },
+    {
+      "name": "テンカウント for App react",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-01",
+      "death": "2020-06"
+    },
+    {
+      "name": "キャラコネクト",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-04",
+      "death": "2020-06"
+    },
+    {
+      "name": "からかい勝負の高木さん",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-07",
+      "death": "2020-06"
+    },
+    {
+      "name": "スーパー戦艦：地海伝説",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-08",
+      "death": "2020-06"
+    },
+    {
+      "name": "ふわふわ大戦争",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-08",
+      "death": "2020-06"
+    },
+    {
+      "name": "マチガイブレイカー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-09",
+      "death": "2020-06"
+    },
+    {
+      "name": "カードキャプターさくら ハピネスメモリーズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2020-06"
+    },
+    {
+      "name": "CocoPPa Dolls",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-01",
+      "death": "2020-06"
+    },
+    {
+      "name": "神姫覚醒メルティメイデン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2014-02",
+      "death": "2020-06"
+    },
+    {
+      "name": "ウィムジカルウォー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-03",
+      "death": "2020-06"
+    },
+    {
+      "name": "太陽の都",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2020-06"
+    },
+    {
+      "name": "レガシーオブデスティニー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2020-06"
+    },
+    {
+      "name": "超進化物語",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-03",
+      "death": "2020-06"
+    },
+    {
+      "name": "ローリングスフィア",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2020-02",
+      "death": "2020-06"
+    },
+    {
+      "name": "グリムノーツ Repage",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2016-01",
+      "death": "2020-06"
+    },
+    {
+      "name": "劇場推理 人狼狂（グルイ）",
+      "region": "グルイ",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-11",
+      "death": "2020-06"
+    },
+    {
+      "name": "LINE ウパルランド",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2015-08",
+      "death": "2020-06"
+    },
+    {
+      "name": "三國志曹操伝 ONLINE",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-08",
+      "death": "2020-06"
+    },
+    {
+      "name": "FAITH",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-11",
+      "death": "2020-06"
+    },
+    {
+      "name": "ガンオブソウル2",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-06",
+      "death": "2020-06"
+    },
+    {
+      "name": "ららマジ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-01",
+      "death": "2020-06"
+    },
+    {
+      "name": "プリキュア つながるぱずるん",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2017-03",
+      "death": "2020-06"
+    },
+    {
+      "name": "ハーレム伝説～俺の時代がやってきた～",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-01",
+      "death": "2020-05"
+    },
+    {
+      "name": "ハーレム伝説ZERO",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-05",
+      "death": "2020-05"
+    },
+    {
+      "name": "ハーレム伝説フロンティア",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-06",
+      "death": "2020-05"
+    },
+    {
+      "name": "ラストイデア",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-04",
+      "death": "2020-05"
+    },
+    {
+      "name": "モンストドリームカンパニー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2020-05"
+    },
+    {
+      "name": "まちむす 地球防衛ライブ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2020-05"
+    },
+    {
+      "name": "交響性ミリオンアーサー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-10",
+      "death": "2020-05"
+    },
+    {
+      "name": "のぶニャがの野望 ニャぷり！",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-07",
+      "death": "2020-05"
+    },
+    {
+      "name": "最果てのバベル",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-06",
+      "death": "2020-04"
+    },
+    {
+      "name": "永遠の7日",
+      "region": "日服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/a/a1/F7icon.jpg!/fw/128?v=20180421024429",
+      "publisher": "未知",
+      "release": "2019-05",
+      "death": "2020-04"
+    },
+    {
+      "name": "百姫退魔 ‐放課後少女‐",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-08",
+      "death": "2020-04"
+    },
+    {
+      "name": "ルティエクリッカー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-09",
+      "death": "2020-04"
+    },
+    {
+      "name": "ラビリンスチェイサー",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2020-04"
+    },
+    {
+      "name": "ユニティア 神託の使徒×終焉の女神",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-07",
+      "death": "2020-03"
+    },
+    {
+      "name": "〈物語〉シリーズ ぷくぷく",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-08",
+      "death": "2020-03"
+    },
+    {
+      "name": "ファンタジーアースジェネシス",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-09",
+      "death": "2020-03"
+    },
+    {
+      "name": "放置三極姫 ~乱世の三国美少女たち~",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-02",
+      "death": "2020-03"
+    },
+    {
+      "name": "トリカゴ スクラップマーチ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-04",
+      "death": "2020-03"
+    },
+    {
+      "name": "リーグオブワンダーランド",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2020-03"
+    },
+    {
+      "name": "ラストキングス",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-10",
+      "death": "2020-03"
+    },
+    {
+      "name": "崩落のCARNEADES",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2020-03"
+    },
+    {
+      "name": "ハイスクール・フリート 艦隊バトルでピンチ！",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-03",
+      "death": "2020-03"
+    },
+    {
+      "name": "ファンタジーファーム",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2020-03"
+    },
+    {
+      "name": "苍青のミラージュ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-09",
+      "death": "2020-03"
+    },
+    {
+      "name": "メモリアルレコード",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-09",
+      "death": "2020-02"
+    },
+    {
+      "name": "ワイルドアームズ ミリオンメモリーズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-09",
+      "death": "2020-02"
+    },
+    {
+      "name": "ドラゴン&コロニーズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-06",
+      "death": "2020-02"
+    },
+    {
+      "name": "神剣のバクヤ-Sword Warriors-",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-08",
+      "death": "2020-02"
+    },
+    {
+      "name": "三国ロマンス",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-01",
+      "death": "2020-02"
+    },
+    {
+      "name": "少女咖啡枪",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/e/ef/Sncfqiang.jpg!/fw/128?v=20220611104644",
+      "publisher": ".2.4西山居",
+      "release": "2016-11",
+      "death": "2020-02"
+    },
+    {
+      "name": "アークレゾナ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-08",
+      "death": "2020-01"
+    },
+    {
+      "name": "釣り婚活",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-04",
+      "death": "2020-01"
+    },
+    {
+      "name": "ファイブキングダム―偽りの王国―",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-08",
+      "death": "2020-01"
+    },
+    {
+      "name": "ダークアベンジャークロス",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-02",
+      "death": "2020-01"
+    },
+    {
+      "name": "元気封神:Reverse",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2019-06",
+      "death": "2020-01"
+    },
+    {
+      "name": "ホップステップジャンパーズ",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-12",
+      "death": "2020-01"
+    },
+    {
+      "name": "サファイア・スフィア〜蒼き境界〜",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-08",
+      "death": "2020-01"
+    },
+    {
+      "name": "ましろウィッチ 真夜中のメルヒェン",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-11",
+      "death": "2020-01"
+    },
+    {
+      "name": "プレカトゥスの天秤",
+      "region": "日服",
+      "img_url": "",
+      "publisher": "未知",
+      "release": "2018-10",
+      "death": "2020-01"
+    },
+    {
+      "name": "战场双马尾",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/7/76/%E6%88%98%E5%9C%BA%E5%8F%8C%E9%A9%AC%E5%B0%BE%E5%9B%BE%E6%A0%87.jpg!/fw/128?v=20230621033016",
+      "publisher": "未知",
+      "release": "2016-06",
+      "death": "2018-12"
+    },
+    {
+      "name": "山海计划/山海战记",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/e/e4/%E5%B1%B1%E6%B5%B7%E8%AE%A1%E5%88%92%E5%9B%BE%E6%A0%87.jpg!/fw/128?v=20230621034110",
+      "publisher": "未知",
+      "release": "2016-01",
+      "death": "2017-10"
+    },
+    {
+      "name": "神威启示录",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/8/80/%E7%A5%9E%E5%A8%81%E5%90%AF%E7%A4%BA%E5%BD%95%E5%9B%BE%E6%A0%87.jpg!/fw/128?v=20230621034807",
+      "publisher": "2016",
+      "release": "",
+      "death": "2017-03"
+    },
+    {
+      "name": "[游戏名]",
+      "region": "[服务器]",
+      "img_url": "",
+      "publisher": "[游戏公测日期]～[游戏停服日期][游戏开发公司",
+      "release": "",
+      "death": ""
+    },
+    {
+      "name": "最终幻想：勇气启示录幻影战争",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/a/ae/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B3%EF%BC%9A%E5%8B%87%E6%B0%94%E5%90%AF%E7%A4%BA%E5%BD%95%E5%B9%BB%E5%BD%B1%E6%88%98%E4%BA%89.jpg!/fw/128?v=20230620032313",
+      "publisher": "2021年06月23日～2023年6月21日SQUARE ENIX",
+      "release": "",
+      "death": ""
+    },
+    {
+      "name": "召唤与合成",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/6/62/%E5%8F%AC%E5%94%A4%E4%B8%8E%E5%90%88%E6%88%901%E5%9B%BE%E6%A0%87.jpg!/fw/128?v=20230620034441",
+      "publisher": "2018年1月31日～2022年4月1日上海召合网络科技有限公司",
+      "release": "",
+      "death": ""
+    },
+    {
+      "name": "SuperStar GFRIEND",
+      "region": "韩服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/f/fb/SuperStar_GFRIEND.png!/fw/128?v=20220611122251",
+      "publisher": "2020年6月15日～2022年1月27日DALCOMSOFT",
+      "release": "",
+      "death": ""
+    },
+    {
+      "name": "SuperStar IZ*ONE",
+      "region": "韩服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/6/60/SUPERSTAR_IZ_ONE.png!/fw/128?v=20220611122252",
+      "publisher": "2020年4月21日～2021年5月31日DALCOMSOFT",
+      "release": "",
+      "death": ""
+    },
+    {
+      "name": "妃十三学园",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/b/b8/%E5%A6%83%E5%8D%81%E4%B8%89%E5%AD%A6%E5%9B%AD%E5%9B%BE%E6%A0%87.png!/fw/128?v=20230620235513",
+      "publisher": "2019年9月12日～2021年4月8日QualiArts",
+      "release": "",
+      "death": ""
+    },
+    {
+      "name": "SuperStar PLEDIS",
+      "region": "韩服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/c/c6/SuperStar_PLEDIS.png!/fw/128?v=20220611122256",
+      "publisher": "2019年1月29日～2021年2月26日DALCOMSOFT",
+      "release": "",
+      "death": ""
+    },
+    {
+      "name": "为谁而炼金",
+      "region": "国服",
+      "img_url": "https://storage.moegirl.org.cn/moegirl/commons/5/51/%E4%B8%BA%E8%B0%81%E8%80%8C%E7%82%BC%E9%87%91%E5%9B%BE%E6%A0%87.png",
+      "publisher": "2017年12月6日-2020年7月29日Fuji&gumi Games",
+      "release": "",
+      "death": ""
+    },
+    {
+      "name": "SuperStar BTS",
+      "region": "韩服",
+      "img_url": "",
+      "publisher": "2018年1月18日～2020年6月23日DALCOMSOFT",
+      "release": "",
+      "death": ""
+    }
+  ]
+}

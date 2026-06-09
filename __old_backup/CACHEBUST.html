@@ -1,0 +1,3 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Cache Bust</title>
+<script>location.replace("./index.html?v=' + str(os.urandom(4).hex()) + '");</script>
+</head><body>如果没跳转，<a href="./index.html?v=1">点这里</a></body></html>

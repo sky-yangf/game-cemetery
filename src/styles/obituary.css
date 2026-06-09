@@ -1,0 +1,69 @@
+/* 数字墓园 - 讣告风格 CSS 变量 + 组件覆盖 */
+
+:root {
+  --page-bg: #fafafa;
+
+  /* 讣告色板 */
+  --obituary-black: #0a0a0a;
+  --obituary-paper: #fafafa;
+  --obituary-white: #ffffff;
+  --obituary-gray: #707070;
+  --obituary-light: #5a5a5a;
+  --obituary-mute: #a0a0a0;
+  --obituary-soil: #e8e8e8;
+
+  /* 硬投影 */
+  --obituary-shadow: 3px 3px 0 var(--obituary-black);
+  --obituary-shadow-hover: 5px 5px 0 var(--obituary-black);
+
+  /* 撕边 clip-path（讣告风核心）—— 任务 1 用 8px 太微妙，任务 2 加到 16-24px */
+  --obituary-torn-edge: polygon(
+    0 0, 100% 0,
+    100% 88%, 96% 92%, 100% 96%, 96% 100%, 92% 96%,
+    88% 100%, 0 100%,
+    0 96%, 4% 100%, 0 100%
+  );
+
+  /* 报纸栏背景（极淡） */
+  --obituary-newspaper-bg: repeating-linear-gradient(
+    90deg,
+    transparent 0,
+    transparent calc(100% / 6 - 1px),
+    rgba(0, 0, 0, 0.04) calc(100% / 6 - 1px),
+    rgba(0, 0, 0, 0.04) calc(100% / 6)
+  );
+
+  /* —— shadcn Select / Popover 透明修复 —— */
+  /* 修复前：SelectContent 默认 bg 是 hsla(240 4.8% 95.9%) 浅灰，
+     但触发器 SelectTrigger 透明，导致下拉打开瞬间看起来"没有底色"
+     修复：强制 SelectContent 白底 + 黑边 + 硬投影 + 直角 */
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 4%;
+  --popover-border: var(--obituary-black);
+}
+
+/* 下拉内容（弹出层）—— 强制白底 + 黑边 + 硬投影 + 直角 */
+[data-radix-popper-content-wrapper] > div,
+[data-slot="select-content"] {
+  background-color: #ffffff !important;
+  border: 2px solid var(--obituary-black) !important;
+  border-radius: 0 !important;
+  box-shadow: var(--obituary-shadow) !important;
+  z-index: 9999 !important;
+}
+
+/* 下拉项 hover/active */
+[data-slot="select-item"] {
+  border-radius: 0 !important;
+}
+[data-slot="select-item"][data-highlighted] {
+  background-color: var(--obituary-black) !important;
+  color: var(--obituary-paper) !important;
+}
+
+/* SelectTrigger 触发器本身也加黑边（之前是透明 + 灰边） */
+[data-slot="select-trigger"] {
+  background-color: #ffffff !important;
+  border: 2px solid var(--obituary-black) !important;
+  border-radius: 0 !important;
+}

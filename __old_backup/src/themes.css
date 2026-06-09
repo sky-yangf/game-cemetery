@@ -1,0 +1,70 @@
+/* === 3 种墓园主题 === */
+
+/* 暮色（默认）：暖橙 → 深紫 */
+body[data-theme="dusk"] {
+  --sky-top: #2a1f30;
+  --sky-mid: #8a3a3a;
+  --sky-horizon: #e07020;
+  --ground: #1a1208;
+  --ground-deep: #0d0805;
+  --tomb-top: #6a5a4a;
+  --tomb-mid: #8a7a6a;
+  --tomb-bot: #5a4a3a;
+  --text-light: #e8e0c8;
+  --text-warm: #d0b890;
+  --accent: #ff6b35;
+  --accent-glow: rgba(255, 107, 53, 0.4);
+  --modal-bg: linear-gradient(180deg, #2a1f1a 0%, #1a0f0a 100%);
+  --card-bg: rgba(0, 0, 0, 0.3);
+  color: #e8e0c8;
+  background:
+    radial-gradient(ellipse 700px 350px at 60% 45%, rgba(255, 160, 60, 0.7) 0%, rgba(255, 100, 20, 0.3) 40%, transparent 70%),
+    linear-gradient(180deg, #2a1f30 0%, #4a2a3a 18%, #8a3a3a 35%, #c05530 48%, #e07020 56%, #a04520 62%, #3a2010 70%, #1a1208 78%, #0d0805 100%);
+  filter: brightness(1.1);
+}
+
+/* 暗夜：深蓝 → 纯黑 */
+body[data-theme="night"] {
+  --sky-top: #0a0a1a;
+  --sky-mid: #1a1a3a;
+  --sky-horizon: #2a2a4a;
+  --ground: #0a0a0a;
+  --ground-deep: #000000;
+  --tomb-top: #3a3a4a;
+  --tomb-mid: #4a4a5a;
+  --tomb-bot: #2a2a3a;
+  --text-light: #c0c0d0;
+  --text-warm: #a0a0b0;
+  --accent: #6666ff;
+  --accent-glow: rgba(102, 102, 255, 0.4);
+  --modal-bg: linear-gradient(180deg, #1a1a2a 0%, #0a0a1a 100%);
+  --card-bg: rgba(255, 255, 255, 0.05);
+  color: #c0c0d0;
+  background:
+    radial-gradient(ellipse 600px 300px at 70% 50%, rgba(80, 80, 180, 0.3) 0%, transparent 70%),
+    linear-gradient(180deg, #0a0a1a 0%, #0f0f25 30%, #1a1a3a 55%, #2a2a4a 70%, #0a0a0a 80%, #000000 100%);
+  filter: brightness(0.9);
+}
+
+/* 淡雅：浅灰 → 白 */
+body[data-theme="dawn"] {
+  --sky-top: #4a4a5a;
+  --sky-mid: #7a7a8a;
+  --sky-horizon: #c0c0d0;
+  --ground: #8a8a8a;
+  --ground-deep: #6a6a6a;
+  --tomb-top: #d0d0d0;
+  --tomb-mid: #e0e0e0;
+  --tomb-bot: #b0b0b0;
+  --text-light: #1a1a2a;
+  --text-warm: #3a3a4a;
+  --accent: #4466aa;
+  --accent-glow: rgba(68, 102, 170, 0.3);
+  --modal-bg: linear-gradient(180deg, #e8e8f0 0%, #d0d0d8 100%);
+  --card-bg: rgba(0, 0, 0, 0.05);
+  color: #1a1a2a;
+  background:
+    radial-gradient(ellipse 800px 400px at 50% 40%, rgba(200, 200, 220, 0.4) 0%, transparent 70%),
+    linear-gradient(180deg, #4a4a5a 0%, #6a6a7a 30%, #7a7a8a 50%, #c0c0d0 65%, #8a8a8a 80%, #6a6a6a 100%);
+  filter: brightness(1.2);
+}

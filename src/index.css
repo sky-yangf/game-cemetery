@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ═══════════ Obituary — Newspaper Black & White ═══════════ */
+
+:root {
+  --page-bg: #fafafa;
+  --lawn: #f0f0f0;
+  --card-bg: #ffffff;
+  --card-stroke: #0a0a0a;
+  --card-soil: #e8e8e8;
+  --wood: #e8e8e8;
+  --seal: #0a0a0a;
+  --text-main: #0a0a0a;
+  --text-sub: #5a5a5a;
+  --text-mute: #a0a0a0;
+  --accent: #0a0a0a;
+  --btn-primary-bg: #0a0a0a;
+  --btn-primary-fg: #fafafa;
+  --btn-secondary-bg: transparent;
+  --btn-secondary-fg: #0a0a0a;
+  --btn-secondary-border: #0a0a0a;
+  --tag-bg: #0a0a0a;
+  --tag-fg: #fafafa;
+  --banner-bg: #0a0a0a;
+  --banner-fg: #fafafa;
+  --shadow-color: #0a0a0a;
+  --hard-shadow: 3px 3px 0 #0a0a0a;
+  --hard-shadow-hover: 5px 5px 0 #0a0a0a;
+  --hard-shadow-active: 1px 1px 0 #0a0a0a;
+  --newspaper-column: repeating-linear-gradient(90deg,transparent 0,transparent calc(100%/6 - 1px),rgba(0,0,0,0.04) calc(100%/6 - 1px),rgba(0,0,0,0.04) calc(100%/6));
+}
+
+body {
+  @apply antialiased;
+  font-family: "Noto Serif SC", "Songti SC", "Times New Roman", serif;
+  background-image: var(--newspaper-column);
+}
+
+/* ── Animations ── */
+@keyframes stat-bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-4px)} }
+.animate-stat-bounce { animation:stat-bounce 2s ease-in-out infinite; }
+
+/* ── Torn edge clip (bottom zigzag) ── */
+.torn-edge {
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 96% 96%, 100% 100%, 0 100%, 0 96%, 4% 100%);
+}
+
+/* ── Card ── */
+.obit-card {
+  background: #ffffff;
+  border: 2px solid #0a0a0a;
+  border-radius: 0;
+  box-shadow: 3px 3px 0 #0a0a0a;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.obit-card:hover {
+  transform: rotate(0deg) !important;
+  box-shadow: 5px 5px 0 #0a0a0a;
+}
+
+.obit-card-sm {
+  background: #ffffff;
+  border: 2px solid #0a0a0a;
+  border-radius: 0;
+  box-shadow: 3px 3px 0 #0a0a0a;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.obit-card-sm:hover {
+  transform: rotate(0deg) !important;
+  box-shadow: 5px 5px 0 #0a0a0a;
+}
+
+/* ── Emoji box ── */
+.obit-emoji {
+  border: 2px solid #0a0a0a;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transform: rotate(-8deg);
+}
+
+/* ── Banner ── */
+.obit-banner {
+  background: #0a0a0a;
+  border: 2px solid #0a0a0a;
+  border-radius: 0;
+  box-shadow: 4px 4px 0 #0a0a0a;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ── Buttons ── */
+.obit-btn-primary {
+  background: #0a0a0a;
+  color: #fafafa;
+  border: 1.5px solid #0a0a0a;
+  border-radius: 0;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  transition: all 0.2s ease;
+  box-shadow: 2px 2px 0 #0a0a0a;
+  cursor: pointer;
+}
+.obit-btn-primary:hover {
+  background: #fafafa;
+  color: #0a0a0a;
+}
+.obit-btn-primary:active {
+  transform: scale(0.97) translateY(1px);
+  box-shadow: 1px 1px 0 #0a0a0a;
+}
+
+.obit-btn-outline {
+  background: transparent;
+  color: #0a0a0a;
+  border: 1.5px solid #0a0a0a;
+  border-radius: 0;
+  font-weight: 900;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.obit-btn-outline:hover {
+  background: #0a0a0a;
+  color: #fafafa;
+}
+.obit-btn-outline:active {
+  transform: scale(0.97) translateY(1px);
+}
+
+/* ── shadcn overrides ── */
+.pvz-select-trigger {
+  background: #ffffff !important;
+  border: 2px solid #0a0a0a !important;
+  border-radius: 0 !important;
+  color: #0a0a0a !important;
+}
+.pvz-input {
+  background: #ffffff !important;
+  border: 2px solid #0a0a0a !important;
+  border-radius: 0 !important;
+  color: #0a0a0a !important;
+}
+.pvz-input::placeholder { color: #5a5a5a !important; }
+.pvz-search-icon { color: #5a5a5a !important; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #5a5a5a; border-radius: 3px; }
+::selection { background-color: #0a0a0a; color: #fafafa; }
