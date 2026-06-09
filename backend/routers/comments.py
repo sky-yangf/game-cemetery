@@ -78,8 +78,19 @@ def create_comment(
             f"INSERT INTO comments (id, game_id, author, content, image) "
             f"VALUES ('{new_id}', '{escaped_game}', '{author}', '{content}', {img_sql})"
         )
-        row = db.fetch_one(f"SELECT * FROM comments WHERE id = '{new_id}'")
-        return _row_to_comment(row)
+        # INSERT 后重新读：Turso HTTP 不保证立刻可见，retry
+        import time
+        for _ in range(3):
+            time.sleep(0.3)
+            row = db.fetch_one(f"SELECT * FROM comments WHERE id = '{new_id}'")
+            if row:
+                return _row_to_comment(row)
+        # fallback: 返回创建的数据
+        return {
+            "id": new_id, "game_id": game_id,
+            "author": body.author, "content": body.content,
+            "image": body.image, "created_at": "",
+        }
 
     game = db.query(Game).filter(Game.id == game_id).first()
     if not game:
