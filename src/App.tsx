@@ -75,23 +75,23 @@ export default function App() {
 
   // 点蜡烛
   const handleCandle = useCallback(async (game: Game) => {
+    const before = game.candles
     try {
       const res = await api.addCandle(game.id)
       // 立即更新详情弹窗的蜡烛数（不等 refreshGames）
       setSelected((prev) => prev && prev.id === game.id ? { ...prev, candles: res.total_candles } : prev)
       await refreshGames()
-      toast.success("🕯️ 已点亮蜡烛", {
-        description: `感谢 ${game.name} 留下的记忆`,
-      })
-    } catch (e) {
-      const msg = e instanceof Error ? e.message : "失败"
-      if (msg.includes("已经点过")) {
-        toast.warning("今天已经点过蜡烛了", {
-          description: "24h 后才能再点",
+      if (res.total_candles > before) {
+        toast.success("🕯️ 已点亮蜡烛", {
+          description: `感谢 ${game.name} 留下的记忆`,
         })
       } else {
-        toast.error(`点蜡烛失败：${msg}`)
+        toast.info("你今天已经点过蜡烛了", {
+          description: "24 小时后才能再点一根",
+        })
       }
+    } catch (e) {
+      toast.error(`点蜡烛失败：${e instanceof Error ? e.message : "未知错误"}`)
     }
   }, [refreshGames, games])
 
