@@ -95,8 +95,8 @@ class CommentOut(BaseModel):
     game_id: str
     author: str
     content: str
-    image: Optional[str]
-    created_at: datetime
+    image: Optional[str] = None
+    created_at: str = ""
 
     class Config:
         from_attributes = True
