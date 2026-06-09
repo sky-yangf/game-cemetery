@@ -18,20 +18,20 @@ async def startup_log():
     print(f"[STARTUP] IS_TURSO={IS_TURSO}", flush=True)
     print(f"[STARTUP] DB_URL 前40字符={DB_URL[:40] if DB_URL else 'EMPTY'}", flush=True)
     print(f"[STARTUP] DB_TOKEN={'SET' if DB_TOKEN else 'MISSING'}", flush=True)
-    # 一次性修表：DROP 旧 comments 表（缺 author 列）
+    #启动自检：仅确保表结构存在，**不 DROP 不清数据**
     if IS_TURSO and DB_TOKEN:
         from database import get_db
         db = next(get_db())
         try:
-            db.execute("DROP TABLE IF EXISTS comments")
-            db.execute("""CREATE TABLE IF NOT EXISTS comments (
-                id TEXT PRIMARY KEY, game_id TEXT NOT NULL,
-                author TEXT, content TEXT NOT NULL,
-                image TEXT, created_at TEXT DEFAULT (datetime('now'))
-            )""")
-            print("[STARTUP] comments 表重建完成", flush=True)
+            info = db.execute("PRAGMA table_info(comments)") or []
+            cols = [r.get("name") for r in info] if isinstance(info, list) else []
+            if cols and "author" not in cols:
+                db.execute("ALTER TABLE comments ADD COLUMN author TEXT")
+                print("[STARTUP] comments.author 列已补齐", flush=True)
+            else:
+                print(f"[STARTUP] comments 表健康（列={cols}）", flush=True)
         except Exception as e:
-            print(f"[STARTUP] comments 表处理失败: {e}", flush=True)
+            print(f"[STARTUP] comments 表自检失败: {e}", flush=True)
 
 # CORS: 部署模式允许所有来源，本地开发只允许 localhost
 ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "*")
