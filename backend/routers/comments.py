@@ -34,9 +34,6 @@ def list_comments(game_id: str, db = Depends(get_db)):
     escaped_game = game_id.replace(chr(39), chr(39) + chr(39))
 
     if IS_TURSO:
-        game = db.fetch_one(f"SELECT id FROM games WHERE id = '{escaped_game}'")
-        if not game:
-            raise HTTPException(404, "墓碑不存在")
         rows = db.fetch_all(
             f"SELECT * FROM comments WHERE game_id = '{escaped_game}' "
             f"ORDER BY created_at DESC"
@@ -71,9 +68,6 @@ def create_comment(
     img_sql = f"'{image}'" if image else "NULL"
 
     if IS_TURSO:
-        game = db.fetch_one(f"SELECT id FROM games WHERE id = '{escaped_game}'")
-        if not game:
-            raise HTTPException(404, "墓碑不存在")
         db.execute(
             f"INSERT INTO comments (id, game_id, author, content, image) "
             f"VALUES ('{new_id}', '{escaped_game}', '{author}', '{content}', {img_sql})"
