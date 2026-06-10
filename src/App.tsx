@@ -166,7 +166,7 @@ export default function App() {
   // Admin 删除墓碑
   const handleDeleteGame = useCallback(async () => {
     if (!selected) return
-    if (!confirm(`确定删除「${selected.name}」？\n\n此操作不可撤销（仅限用户提交的墓碑）`)) return
+    if (!confirm(`确定删除「${selected.name}」？\n\n此操作不可撤销`)) return
     try {
       await api.deleteGame(selected.id)
       setSelected(null)
