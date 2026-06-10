@@ -20,7 +20,8 @@ async def startup_log():
     print(f"[STARTUP] DB_TOKEN={'SET' if DB_TOKEN else 'MISSING'}", flush=True)
     #启动自检：仅确保表结构存在，**不 DROP 不清数据**
     if IS_TURSO and DB_TOKEN:
-        from database import get_db
+        from database import ensure_tables_once, get_db
+        ensure_tables_once()
         db = next(get_db())
         try:
             info = db.execute("PRAGMA table_info(comments)") or []

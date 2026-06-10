@@ -126,11 +126,22 @@ else:
 Base = declarative_base()
 
 
+# TursoClient module-level singleton
+_turso_client = None
+
+def _get_turso():
+    global _turso_client
+    if _turso_client is None:
+        _turso_client = TursoClient()
+        return _turso_client
+
+def ensure_tables_once():
+    if IS_TURSO:
+        _get_turso().ensure_tables()
+
 def get_db():
     if IS_TURSO:
-        client = TursoClient()
-        client.ensure_tables()
-        yield client
+        yield _get_turso()
     else:
         db = SessionLocal()
         try:
