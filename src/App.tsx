@@ -282,7 +282,7 @@ export default function App() {
         isAdmin={username === "admin"}
         onLoginRequest={() => setShowLogin(true)}
         onEditGame={username === "admin" && selected ? () => setEditGame(selected) : undefined}
-        onDeleteGame={username === "admin" && selected?.is_user_submitted ? handleDeleteGame : undefined}
+        onDeleteGame={username === "admin" && selected ? handleDeleteGame : undefined}
       />
 
       <LoginDialog open={showLogin} onOpenChange={setShowLogin} onLogin={handleLogin} />
