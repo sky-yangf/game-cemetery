@@ -41,6 +41,11 @@ export function useComments(gameId: string | null) {
   const [comments, setComments] = useState<Comment[]>([])
   const [loading, setLoading] = useState(false)
 
+ // 关键:gameId变化时立即清空旧留言,避免上一个游戏的留言闪现
+ useEffect(() => {
+ setComments([])
+ }, [gameId])
+
   const refresh = useCallback(async () => {
     if (!gameId) return
     setLoading(true)
